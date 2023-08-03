@@ -1,13 +1,13 @@
 # PT: All Pro
 
-Apps multitude lead to clutter on the phone, how about one full-featured app that offers you:
+Apps multitude lead to clutter on the phone, how about one full-featured app that offers you:  
 
- 1️⃣ Alarm Clock ⏰⏰  
- 2️⃣ Gallery 🌄🎞️  
- 3️⃣ File manager 📁📂  
- 4️⃣ Music player 🎧🎼  
- 5️⃣ Notepad with Counter 🗒️🗓️  
- 6️⃣ Screen Recorder app and screenshot  
+1️⃣ Alarm Clock ⏰⏰  
+2️⃣ Gallery 🌄🎞️  
+3️⃣ File manager 📁📂  
+4️⃣ Music player 🎧🎼  
+5️⃣ Notepad with Counter 🗒️🗓️  
+6️⃣ Screen Recorder app and screenshot  
 
 ## 🔗 Links
 [![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat-square&logo=Android%20Studio&logoColor=white)](https://developer.android.com/studio?gclid=EAIaIQobChMI1qTfxqPBgAMVloZoCR2AtArWEAAYASAAEgJ0IPD_BwE&gclsrc=aw.ds)
