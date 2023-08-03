@@ -1,4 +1,3 @@
-
 # PT: All Pro
 
 Apps multitude lead to clutter on the phone, how about one full-featured app that offers you:
