@@ -2,12 +2,12 @@
 
 Apps multitude lead to clutter on the phone, how about one full-featured app that offers you:
 
-1️⃣ Alarm Clock ⏰⏰  
-2️⃣ Gallery 🌄🎞️  
-3️⃣ File manager 📁📂  
-4️⃣ Music player 🎧🎼  
-5️⃣ Notepad with Counter 🗒️🗓️  
-6️⃣ Screen Recorder app and screenshot
+ 1️⃣ Alarm Clock ⏰⏰  
+ 2️⃣ Gallery 🌄🎞️  
+ 3️⃣ File manager 📁📂  
+ 4️⃣ Music player 🎧🎼  
+ 5️⃣ Notepad with Counter 🗒️🗓️  
+ 6️⃣ Screen Recorder app and screenshot  
 
 ## 🔗 Links
 [![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat-square&logo=Android%20Studio&logoColor=white)](https://developer.android.com/studio?gclid=EAIaIQobChMI1qTfxqPBgAMVloZoCR2AtArWEAAYASAAEgJ0IPD_BwE&gclsrc=aw.ds)
@@ -23,8 +23,8 @@ Apps multitude lead to clutter on the phone, how about one full-featured app tha
 ## Screenshots
 
 ![1-Main PT](https://github.com/OmAr-Kader/PT-All-Pro/assets/137582672/f7c1c4f8-bc78-4c63-88dd-2ec996982759)
-![2-MUSIC](https://github.com/OmAr-Kader/PT-All-Pro/assets/137582672/2c46a12f-73d5-4552-9f49-d31f3509b337)
-![3-Lock Screen](https://github.com/OmAr-Kader/PT-All-Pro/assets/137582672/f7bb2259-c428-478d-bcf8-2c80620badba)
-![4-FILE](https://github.com/OmAr-Kader/PT-All-Pro/assets/137582672/59fd8510-ac70-460a-b806-f83a1430f9d8)
-![4-GALLERY](https://github.com/OmAr-Kader/PT-All-Pro/assets/137582672/653c8110-500d-49ce-b5b7-50ca6d63c597)
-![5-ALARM](https://github.com/OmAr-Kader/PT-All-Pro/assets/137582672/f133c203-5775-401e-a725-046a288552d4)
+<img src="https://github.com/OmAr-Kader/PT-All-Pro/assets/137582672/e5823e78-b42b-47df-b94e-77e4af5c6e63"  width="300" height="667"/>
+<img src="https://github.com/OmAr-Kader/PT-All-Pro/assets/137582672/99b67399-8070-4c3b-a558-ce28c6c28874"  width="300" height="667"/>
+![3-Lock Screen](https://github.com/OmAr-Kader/PT-All-Pro/assets/137582672/8c7850f3-441f-4ab1-bcdf-ee545edf6b8f)
+<img src="https://github.com/OmAr-Kader/PT-All-Pro/assets/137582672/8787dc53-bfbd-4072-a1a7-25e637e2bb4e"  width="300" height="667"/>
+<img src="https://github.com/OmAr-Kader/PT-All-Pro/assets/137582672/a6de2965-82e0-4c21-ac17-ba2fb01ba8a1"  width="300" height="667"/>
