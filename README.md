@@ -10,7 +10,6 @@ Apps multitude lead to clutter on the phone, how about one full-featured app tha
 5️⃣ Notepad with Counter 🗒️🗓️  
 6️⃣ Screen Recorder app and screenshot
 
-
 ## 🔗 Links
 [![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat-square&logo=Android%20Studio&logoColor=white)](https://developer.android.com/studio?gclid=EAIaIQobChMI1qTfxqPBgAMVloZoCR2AtArWEAAYASAAEgJ0IPD_BwE&gclsrc=aw.ds)
 
@@ -19,6 +18,8 @@ Apps multitude lead to clutter on the phone, how about one full-featured app tha
 [![kotlin](https://img.shields.io/badge/kotlin-1DA1F2?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org/docs/)
 
 [![coroutines](https://img.shields.io/badge/coroutines-f21d96?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org/docs/coroutines-overview.html)
+
+[![Media-3](https://img.shields.io/badge/Media%203-44A833?style=for-the-badge&logoColor=white)](https://developer.android.com/jetpack/androidx/releases/media3)
 
 ## Screenshots
 
