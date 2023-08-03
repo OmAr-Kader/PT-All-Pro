@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        app:cardBackgroundColor="?attr/rmoBackHint"
+        app:cardCornerRadius="@dimen/card_fixed_large"
+        app:cardElevation="5dp">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animationCache="false"
+            android:overScrollMode="never">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/dd"
+                        android:textAllCaps="false"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="?attr/rmoText"
+                        android:textSize="@dimen/ted" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/switchDarkMode"
+                        style="@style/switchCompatStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|end"
+                        android:layout_marginEnd="30dp"
+                        android:minHeight="48dp"
+                        android:scaleX="@dimen/s10"
+                        android:scaleY="@dimen/s10"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:theme="@style/switchCompatStyle"
+                        app:switchMinWidth="60dp"
+                        app:theme="@style/switchCompatStyle"
+                        app:track="@drawable/double_toggle" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/themesFrame"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="30dp"
+                        android:text="@string/yt"
+                        android:textAllCaps="false"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="?attr/rmoText"
+                        android:textSize="@dimen/ted" />
+
+                    <com.pt.common.moderator.recycler.RecyclerForViews
+                        android:id="@+id/recStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp" />
+
+                </FrameLayout>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center_vertical"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="80dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/kq"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="?attr/rmoText"
+                    android:textSize="@dimen/txt" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:baselineAligned="false"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/depWall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:checked="true"
+                        android:minHeight="48dp"
+                        android:text="@string/kk"
+                        android:textColor="?attr/rmoText"
+                        android:textSize="@dimen/tqd" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/whiteWall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:minHeight="48dp"
+                        android:text="@string/kw"
+                        android:textColor="?attr/rmoText"
+                        android:textSize="@dimen/tqd" />
+
+                    <androidx.appcompat.widget.AppCompatRadioButton
+                        android:id="@+id/darkWall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:minHeight="48dp"
+                        android:text="@string/kh"
+                        android:textColor="?attr/rmoText"
+                        android:textSize="@dimen/tqd" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                <FrameLayout
+                    android:id="@+id/frameSearchText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/ripple_cur"
+                    android:minHeight="48dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/searchImage"
+                        android:layout_width="@dimen/txt"
+                        android:layout_height="@dimen/txt"
+                        android:layout_gravity="start|center_vertical"
+                        app:srcCompat="@drawable/ic_down_arrow"
+                        app:tint="?android:colorAccent" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|center_vertical"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="@string/by"
+                        android:textAllCaps="false"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="?attr/rmoText"
+                        android:textSize="@dimen/ted" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/mainFrameSearch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginBottom="10dp">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/frameSearch"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        app:divider="@drawable/linear_divider"
+                        app:dividerPadding="10dp"
+                        app:showDividers="middle">
+
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </FrameLayout>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="?attr/rmoBackHint"
+    app:cardCornerRadius="10dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/dayOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/ripple_cur"
+            android:gravity="start|center"
+            android:minWidth="120dp"
+            android:minHeight="48dp"
+            android:paddingStart="35dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="35dp"
+            android:paddingBottom="8dp"
+            android:text="@string/dj"
+            android:textAlignment="gravity"
+            android:textAppearance="?attr/textAppearanceLargePopupMenu"
+            android:textColor="?attr/rmoText" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/keyOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/ripple_cur"
+            android:gravity="start|center"
+            android:minWidth="120dp"
+            android:minHeight="48dp"
+            android:paddingStart="35dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="35dp"
+            android:paddingBottom="8dp"
+            android:text="@string/ks"
+            android:textAlignment="gravity"
+            android:textAppearance="?attr/textAppearanceLargePopupMenu"
+            android:textColor="?attr/rmoText" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>

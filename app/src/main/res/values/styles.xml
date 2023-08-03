@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Pop.Resort" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="background">@drawable/ripple_curvy</item>
+        <item name="paddingStart">15dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="paddingEnd">15dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textAppearance">?attr/textAppearanceLargePopupMenu</item>
+        <item name="android:textColor">?attr/rmoText</item>
+    </style>
+
+    <style name="DeleteAlarmDialogTheme.Light" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">@color/bhn</item>
+        <item name="android:windowBackground">@color/bhn</item>
+        <item name="colorAccent">@color/cac</item>
+        <item name="textColor">@color/bla</item>
+        <item name="android:textColor">@color/bla</item>
+        <item name="android:textColorPrimary">@color/bla</item>
+        <item name="android:textColorSecondary">@color/bla</item>
+        <item name="android:windowEnterAnimation">@anim/anim_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_out</item>
+    </style>
+
+    <style name="DeleteAlarmDialogTheme.Night" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">@color/hbd</item>
+        <item name="android:windowBackground">@color/hbd</item>
+        <item name="colorAccent">@color/cac</item>
+        <item name="textColor">@color/whi</item>
+        <item name="android:textColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+        <item name="android:textColorSecondary">@color/whi</item>
+        <item name="android:windowEnterAnimation">@anim/anim_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_out</item>
+    </style>
+
+    <style name="MyAnimation.Window" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_out</item>
+    </style>
+
+    <style name="AppTheme.video.Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">@color/bla</item>
+        <item name="android:textColor">@color/bla</item>
+    </style>
+
+    <style name="Theme.TimePicker" parent="android:Widget.Material.TimePicker">
+        <item name="android:textColorPrimary">?attr/rmoText</item>
+        <item name="android:textSize">@dimen/ted</item>
+        <item name="android:timePickerMode">spinner</item>
+    </style>
+
+    <style name="Theme.TimePicker.DataNotification" parent="android:Widget.Material.TimePicker">
+        <item name="android:textColorPrimary">?attr/rmoText</item>
+        <item name="android:textColor">@color/fre</item>
+        <item name="colorControlNormal">?colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.Picker" parent="android:Widget.Material.TimePicker">
+        <item name="android:textIsSelectable">false</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:editable">false</item>
+        <item name="android:inputType">none</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:descendantFocusability">blocksDescendants</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textAppearance">@style/Picker.Child</item>
+        <item name="android:textSize">@dimen/txt</item>
+        <item name="android:textColorPrimary">?attr/rmoText</item>
+        <item name="colorControlNormal">@color/fre</item>
+    </style>
+
+    <style name="Picker.Child" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:textSize">@dimen/tle</item>
+        <item name="android:textColor">?attr/rmoText</item>
+    </style>
+
+    <!--style name="AppTheme.Picker" parent="android:Widget.Material.TimePicker">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:descendantFocusability">blocksDescendants</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
+        <item name="android:textSize">@dimen/txt</item>
+        <item name="android:textColorPrimary">?attr/rmoText</item>
+        <item name="android:colorControlNormal">@color/fre</item>
+    </style-->
+
+    <style name="MyTheme.CalendarView" parent="android:Widget.CalendarView">
+        <item name="android:textColorPrimary">?attr/rmoText</item>
+        <item name="android:textColorSecondary">?attr/rmoText</item>
+        <item name="android:textColor">?attr/rmoText</item>
+    </style>
+
+    <style name="ProgressBar" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:theme">?android:attr/progressBarStyleLarge</item>
+        <item name="theme">?android:attr/progressBarStyleLarge</item>
+    </style>
+
+    <style name="switchCompatStyle" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="colorControlActivated">?attr/colorPrimary</item>
+        <item name="colorControlNormal">?attr/colorAccent</item>
+        <item name="colorSwitchThumbNormal">?attr/colorAccent</item>
+    </style>
+
+    <style name="switchNormalStyle" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="colorControlActivated">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Animation">
+        <item name="android:windowEnterAnimation">@anim/bottom_to_top</item>
+        <item name="android:windowExitAnimation">@anim/top_to_bottom</item>
+    </style>
+
+    <style name="Image.Card" parent="@android:style/Widget">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/ripple_oval_card</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+
+    <style name="ActiveAlarmTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AIO.App" parent="Light">
+        <item name="colorPrimary">@color/an6</item>
+        <item name="colorPrimaryDark">@color/an6</item>
+        <item name="colorControlNormal">@color/an6</item>
+        <item name="android:colorForeground">@color/an6</item>
+        <item name="colorPrimaryAlpha">@color/an6a</item>
+        <item name="colorAccent">@color/an11d</item>
+        <item name="colorAlphaAccent">@color/an11ad</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+        <item name="rmoBackground">@color/whi</item>
+        <item name="android:windowBackground">@color/whi</item>
+        <item name="android:statusBarColor">@color/whi</item>
+        <item name="android:itemBackground">@color/whi</item>
+        <item name="android:windowSplashScreenBackground" tools:targetApi="s">@color/whi</item>
+        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">
+            @drawable/ic_launcher_foreground
+        </item>
+        <item name="android:windowSplashScreenAnimationDuration" tools:targetApi="s">400</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="s">shortEdges</item>
+        <item name="android:windowSplashScreenBehavior" tools:ignore="NewApi" tools:targetApi="s">
+            icon_preferred
+        </item>
+        <item name="postSplashScreenTheme" tools:targetApi="s">@style/AIO.App</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowClipToOutline" tools:targetApi="s">false</item>
+        <item name="android:windowElevation" tools:targetApi="s">7dp</item>
+    </style>
+
+    <style name="AIO" parent="Theme.AppCompat">
+        <item name="rmoBackHint">@color/bhn</item>
+        <item name="rmoGrey">@color/slx</item>
+        <item name="screenText">@color/rmo_text_light</item>
+        <item name="rmoText">@color/bla</item>
+        <item name="rmoTextMi">@color/bbd</item>
+        <item name="android:textColorSecondary">@color/bla</item>
+        <item name="android:textColor">@color/bla</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:navigationBarColor">@color/bla</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="o_mr1">shortEdges
+        </item>
+        <item name="colorPrimary">@color/whi</item>
+        <item name="colorPrimaryDark">@color/whi</item>
+        <item name="colorControlNormal">@color/whi</item>
+        <item name="rmoBackground">@color/whi</item>
+        <item name="android:windowBackground">@color/whi</item>
+        <item name="android:itemBackground">@color/whi</item>
+        <item name="android:windowSplashScreenBackground" tools:targetApi="s">@color/whi</item>
+        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">@null</item>
+        <item name="android:windowSplashScreenAnimationDuration" tools:targetApi="s">0</item>
+        <item name="postSplashScreenTheme" tools:targetApi="s">@null</item>
+    </style>
+
+    <style name="AIO.Light.Blue" parent="Light">
+        <item name="colorPrimary">@color/cpr</item>
+        <item name="colorPrimaryDark">@color/cpd</item>
+        <item name="colorControlNormal">@color/cpr</item>
+        <item name="android:colorForeground">@color/cpr</item>
+        <item name="colorPrimaryAlpha">@color/cpa</item>
+        <item name="colorAccent">@color/ord</item>
+        <item name="colorAlphaAccent">@color/rca</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Night.Blue" parent="Dark">
+        <item name="colorPrimary">@color/cpb</item>
+        <item name="colorPrimaryDark">@color/cpb</item>
+        <item name="colorControlNormal">@color/cpb</item>
+        <item name="android:colorForeground">@color/cpb</item>
+        <item name="colorPrimaryAlpha">@color/cba</item>
+        <item name="colorAccent">@color/ord</item>
+        <item name="colorAlphaAccent">@color/rca</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Light.Rose" parent="Light">
+        <item name="colorPrimary">@color/rop</item>
+        <item name="colorPrimaryDark">@color/rop</item>
+        <item name="colorControlNormal">@color/rop</item>
+        <item name="android:colorForeground">@color/rop</item>
+        <item name="colorPrimaryAlpha">@color/ros</item>
+        <item name="colorAccent">@color/pca</item>
+        <item name="colorAlphaAccent">@color/paa</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Night.Rose" parent="Dark">
+        <item name="colorPrimary">@color/rod</item>
+        <item name="colorPrimaryDark">@color/rod</item>
+        <item name="colorControlNormal">@color/rod</item>
+        <item name="android:colorForeground">@color/rod</item>
+        <item name="colorPrimaryAlpha">@color/dra</item>
+        <item name="colorAccent">@color/blc</item>
+        <item name="colorAlphaAccent">@color/bal</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/bla</item>
+    </style>
+
+    <style name="AIO.Light.Brown" parent="Light">
+        <item name="colorPrimary">@color/bwp</item>
+        <item name="colorPrimaryDark">@color/bwp</item>
+        <item name="colorControlNormal">@color/bwp</item>
+        <item name="android:colorForeground">@color/bwp</item>
+        <item name="colorPrimaryAlpha">@color/pba</item>
+        <item name="colorAccent">@color/csa</item>
+        <item name="colorAlphaAccent">@color/cas</item>
+        <item name="primaryAccentColor">@color/bla</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Night.Brown" parent="Dark">
+        <item name="colorPrimary">@color/pdb</item>
+        <item name="colorPrimaryDark">@color/pdb</item>
+        <item name="colorControlNormal">@color/pdb</item>
+        <item name="android:colorForeground">@color/pdb</item>
+        <item name="colorPrimaryAlpha">@color/dpa</item>
+        <item name="colorAccent">@color/csa</item>
+        <item name="colorAlphaAccent">@color/cas</item>
+        <item name="primaryAccentColor">@color/bla</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Light.Red" parent="Light">
+        <item name="colorPrimary">@color/prd</item>
+        <item name="colorPrimaryDark">@color/prd</item>
+        <item name="colorControlNormal">@color/prd</item>
+        <item name="android:colorForeground">@color/prd</item>
+        <item name="colorPrimaryAlpha">@color/prr</item>
+        <item name="colorAccent">@color/csa</item>
+        <item name="colorAlphaAccent">@color/cas</item>
+        <item name="primaryAccentColor">@color/bla</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Night.Red" parent="Dark">
+        <item name="colorPrimary">@color/pdr</item>
+        <item name="colorPrimaryDark">@color/pdr</item>
+        <item name="colorControlNormal">@color/pdr</item>
+        <item name="android:colorForeground">@color/pdr</item>
+        <item name="colorPrimaryAlpha">@color/prp</item>
+        <item name="colorAccent">@color/csa</item>
+        <item name="colorAlphaAccent">@color/cas</item>
+        <item name="primaryAccentColor">@color/bla</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Light.Purple" parent="Light">
+        <item name="colorPrimary">@color/ppu</item>
+        <item name="colorPrimaryDark">@color/ppu</item>
+        <item name="colorControlNormal">@color/ppu</item>
+        <item name="android:colorForeground">@color/ppu</item>
+        <item name="colorPrimaryAlpha">@color/pph</item>
+        <item name="colorAccent">@color/oca</item>
+        <item name="colorAlphaAccent">@color/oac</item>
+        <item name="primaryAccentColor">@color/bla</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Night.Purple" parent="Dark">
+        <item name="colorPrimary">@color/pdp</item>
+        <item name="colorPrimaryDark">@color/pdp</item>
+        <item name="colorControlNormal">@color/pdp</item>
+        <item name="android:colorForeground">@color/pdp</item>
+        <item name="colorPrimaryAlpha">@color/ppd</item>
+        <item name="colorAccent">@color/oca</item>
+        <item name="colorAlphaAccent">@color/oac</item>
+        <item name="primaryAccentColor">@color/bla</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Light.Pink" parent="Light">
+        <item name="colorPrimary">@color/pnk</item>
+        <item name="colorPrimaryDark">@color/pnk</item>
+        <item name="colorControlNormal">@color/pnk</item>
+        <item name="android:colorForeground">@color/pnk</item>
+        <item name="colorPrimaryAlpha">@color/pha</item>
+        <item name="colorAccent">@color/oca</item>
+        <item name="colorAlphaAccent">@color/oac</item>
+        <item name="primaryAccentColor">@color/bla</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Night.Pink" parent="Dark">
+        <item name="colorPrimary">@color/pik</item>
+        <item name="colorPrimaryDark">@color/pik</item>
+        <item name="colorControlNormal">@color/pik</item>
+        <item name="android:colorForeground">@color/pik</item>
+        <item name="colorPrimaryAlpha">@color/ink</item>
+        <item name="colorAccent">@color/oca</item>
+        <item name="colorAlphaAccent">@color/oac</item>
+        <item name="primaryAccentColor">@color/bla</item>
+        <item name="android:textColorPrimary">@color/bla</item>
+    </style>
+
+
+    <style name="AIO.Light.Sky" parent="Light">
+        <item name="colorPrimary">@color/skp</item>
+        <item name="colorPrimaryDark">@color/skp</item>
+        <item name="colorControlNormal">@color/skp</item>
+        <item name="android:colorForeground">@color/skp</item>
+        <item name="colorPrimaryAlpha">@color/ska</item>
+        <item name="colorAccent">@color/ord</item>
+        <item name="colorAlphaAccent">@color/rca</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Night.Sky" parent="Dark">
+        <item name="colorPrimary">@color/skd</item>
+        <item name="colorPrimaryDark">@color/skd</item>
+        <item name="colorControlNormal">@color/skd</item>
+        <item name="android:colorForeground">@color/skd</item>
+        <item name="colorPrimaryAlpha">@color/sya</item>
+        <item name="colorAccent">@color/ord</item>
+        <item name="colorAlphaAccent">@color/rca</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/bla</item>
+    </style>
+
+    <style name="AIO.Light.Orange" parent="Light">
+        <item name="colorPrimary">@color/orp</item>
+        <item name="colorPrimaryDark">@color/orp</item>
+        <item name="colorControlNormal">@color/orp</item>
+        <item name="android:colorForeground">@color/orp</item>
+        <item name="colorPrimaryAlpha">@color/oga</item>
+        <item name="colorAccent">@color/blc</item>
+        <item name="colorAlphaAccent">@color/bal</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Night.Orange" parent="Dark">
+        <item name="colorPrimary">@color/ogd</item>
+        <item name="colorPrimaryDark">@color/ogd</item>
+        <item name="colorControlNormal">@color/ogd</item>
+        <item name="android:colorForeground">@color/ogd</item>
+        <item name="colorPrimaryAlpha">@color/oda</item>
+        <item name="colorAccent">@color/blc</item>
+        <item name="colorAlphaAccent">@color/bal</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Light.Yellow" parent="Light">
+        <item name="colorPrimary">@color/ygp</item>
+        <item name="colorPrimaryDark">@color/ygp</item>
+        <item name="colorControlNormal">@color/ygp</item>
+        <item name="android:colorForeground">@color/ygp</item>
+        <item name="colorPrimaryAlpha">@color/ylk</item>
+        <item name="colorAccent">@color/pca</item>
+        <item name="colorAlphaAccent">@color/paa</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Night.Yellow" parent="Dark">
+        <item name="colorPrimary">@color/yed</item>
+        <item name="colorPrimaryDark">@color/yed</item>
+        <item name="colorControlNormal">@color/yed</item>
+        <item name="android:colorForeground">@color/yed</item>
+        <item name="colorPrimaryAlpha">@color/yae</item>
+        <item name="colorAccent">@color/pca</item>
+        <item name="colorAlphaAccent">@color/paa</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/bla</item>
+    </style>
+
+    <style name="AIO.Light.Dodger" parent="Light">
+        <item name="colorPrimary">@color/ddo</item>
+        <item name="colorPrimaryDark">@color/ddo</item>
+        <item name="colorControlNormal">@color/ddo</item>
+        <item name="android:colorForeground">@color/ddo</item>
+        <item name="colorPrimaryAlpha">@color/pda</item>
+        <item name="colorAccent">@color/cac</item>
+        <item name="colorAlphaAccent">@color/caa</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Night.Dodger" parent="Dark">
+        <item name="colorPrimary">@color/pdd</item>
+        <item name="colorPrimaryDark">@color/pdd</item>
+        <item name="colorControlNormal">@color/pdd</item>
+        <item name="android:colorForeground">@color/pdd</item>
+        <item name="colorPrimaryAlpha">@color/oad</item>
+        <item name="colorAccent">@color/ord</item>
+        <item name="colorAlphaAccent">@color/rca</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Light.Lime" parent="Light">
+        <item name="colorPrimary">@color/wli</item>
+        <item name="colorPrimaryDark">@color/wli</item>
+        <item name="colorControlNormal">@color/wli</item>
+        <item name="android:colorForeground">@color/wli</item>
+        <item name="colorPrimaryAlpha">@color/lpi</item>
+        <item name="colorAccent">@color/cac</item>
+        <item name="colorAlphaAccent">@color/caa</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Night.Lime" parent="Dark">
+        <item name="colorPrimary">@color/lid</item>
+        <item name="colorPrimaryDark">@color/lid</item>
+        <item name="colorControlNormal">@color/lid</item>
+        <item name="android:colorForeground">@color/lid</item>
+        <item name="colorPrimaryAlpha">@color/lai</item>
+        <item name="colorAccent">@color/ord</item>
+        <item name="colorAlphaAccent">@color/rca</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/gry</item>
+    </style>
+
+    <style name="AIO.Light.And1" parent="Light">
+        <item name="colorPrimary">@color/an1</item>
+        <item name="colorPrimaryDark">@color/an1</item>
+        <item name="colorControlNormal">@color/an1</item>
+        <item name="android:colorForeground">@color/an1</item>
+        <item name="colorPrimaryAlpha">@color/an1a</item>
+        <item name="colorAccent">@color/blc</item>
+        <item name="colorAlphaAccent">@color/bal</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Night.And1" parent="Dark">
+        <item name="colorPrimary">@color/an1</item>
+        <item name="colorPrimaryDark">@color/an1</item>
+        <item name="colorControlNormal">@color/an1</item>
+        <item name="android:colorForeground">@color/an1</item>
+        <item name="colorPrimaryAlpha">@color/an1a</item>
+        <item name="colorAccent">@color/blc</item>
+        <item name="colorAlphaAccent">@color/bal</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Light.And2" parent="Light">
+        <item name="colorPrimary">@color/an2</item>
+        <item name="colorPrimaryDark">@color/an2</item>
+        <item name="colorControlNormal">@color/an2</item>
+        <item name="android:colorForeground">@color/an2</item>
+        <item name="colorPrimaryAlpha">@color/an2a</item>
+        <item name="colorAccent">@color/blc</item>
+        <item name="colorAlphaAccent">@color/bal</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/bla</item>
+    </style>
+
+    <style name="AIO.Night.And2" parent="Dark">
+        <item name="colorPrimary">@color/an2</item>
+        <item name="colorPrimaryDark">@color/an2</item>
+        <item name="colorControlNormal">@color/an2</item>
+        <item name="android:colorForeground">@color/an2</item>
+        <item name="colorPrimaryAlpha">@color/an2a</item>
+        <item name="colorAccent">@color/blc</item>
+        <item name="colorAlphaAccent">@color/bal</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/bla</item>
+    </style>
+
+    <style name="AIO.Light.And4" parent="Light">
+        <item name="colorPrimary">@color/an4</item>
+        <item name="colorPrimaryDark">@color/an4</item>
+        <item name="colorControlNormal">@color/an4</item>
+        <item name="android:colorForeground">@color/an4</item>
+        <item name="colorPrimaryAlpha">@color/an4a</item>
+        <item name="colorAccent">@color/ord</item>
+        <item name="colorAlphaAccent">@color/rca</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/bla</item>
+    </style>
+
+    <style name="AIO.Night.And4" parent="Dark">
+        <item name="colorPrimary">@color/an4</item>
+        <item name="colorPrimaryDark">@color/an4</item>
+        <item name="colorControlNormal">@color/an4</item>
+        <item name="android:colorForeground">@color/an4</item>
+        <item name="colorPrimaryAlpha">@color/an4a</item>
+        <item name="colorAccent">@color/ord</item>
+        <item name="colorAlphaAccent">@color/rca</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/bla</item>
+    </style>
+
+    <style name="AIO.Light.And5" parent="Light">
+        <item name="colorPrimary">@color/an5</item>
+        <item name="colorPrimaryDark">@color/an5</item>
+        <item name="colorControlNormal">@color/an5</item>
+        <item name="android:colorForeground">@color/an5</item>
+        <item name="colorPrimaryAlpha">@color/an5a</item>
+        <item name="colorAccent">@color/ord</item>
+        <item name="colorAlphaAccent">@color/rca</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Night.And5" parent="Dark">
+        <item name="colorPrimary">@color/an5</item>
+        <item name="colorPrimaryDark">@color/an5</item>
+        <item name="colorControlNormal">@color/an5</item>
+        <item name="android:colorForeground">@color/an5</item>
+        <item name="colorPrimaryAlpha">@color/an5a</item>
+        <item name="colorAccent">@color/ord</item>
+        <item name="colorAlphaAccent">@color/rca</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Light.And6" parent="Light">
+        <item name="colorPrimary">@color/an6</item>
+        <item name="colorPrimaryDark">@color/an6</item>
+        <item name="colorControlNormal">@color/an6</item>
+        <item name="android:colorForeground">@color/an6</item>
+        <item name="colorPrimaryAlpha">@color/an6a</item>
+        <item name="colorAccent">@color/an11d</item>
+        <item name="colorAlphaAccent">@color/an11ad</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Night.And6" parent="Dark">
+        <item name="colorPrimary">@color/an6</item>
+        <item name="colorPrimaryDark">@color/an6</item>
+        <item name="colorControlNormal">@color/an6</item>
+        <item name="android:colorForeground">@color/an6</item>
+        <item name="colorPrimaryAlpha">@color/an6a</item>
+        <item name="colorAccent">@color/an11</item>
+        <item name="colorAlphaAccent">@color/an11a</item>
+        <item name="primaryAccentColor">@color/bla</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Light.And7" parent="Light">
+        <item name="colorPrimary">@color/an7</item>
+        <item name="colorPrimaryDark">@color/an7</item>
+        <item name="colorControlNormal">@color/an7</item>
+        <item name="android:colorForeground">@color/an7</item>
+        <item name="colorPrimaryAlpha">@color/an7a</item>
+        <item name="colorAccent">@color/an11d</item>
+        <item name="colorAlphaAccent">@color/an11ad</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Night.And7" parent="Dark">
+        <item name="colorPrimary">@color/an7</item>
+        <item name="colorPrimaryDark">@color/an7</item>
+        <item name="colorControlNormal">@color/an7</item>
+        <item name="android:colorForeground">@color/an7</item>
+        <item name="colorPrimaryAlpha">@color/an7a</item>
+        <item name="colorAccent">@color/an11</item>
+        <item name="colorAlphaAccent">@color/an11a</item>
+        <item name="primaryAccentColor">@color/bla</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Light.And8" parent="Light">
+        <item name="colorPrimary">@color/an8</item>
+        <item name="colorPrimaryDark">@color/an8</item>
+        <item name="colorControlNormal">@color/an8</item>
+        <item name="android:colorForeground">@color/an8</item>
+        <item name="colorPrimaryAlpha">@color/an8a</item>
+        <item name="colorAccent">@color/an6</item>
+        <item name="colorAlphaAccent">@color/an6a</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Night.And8" parent="Dark">
+        <item name="colorPrimary">@color/an8</item>
+        <item name="colorPrimaryDark">@color/an8</item>
+        <item name="colorControlNormal">@color/an8</item>
+        <item name="android:colorForeground">@color/an8</item>
+        <item name="colorPrimaryAlpha">@color/an8a</item>
+        <item name="colorAccent">@color/an6</item>
+        <item name="colorAlphaAccent">@color/an6a</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Light.And9" parent="Light">
+        <item name="colorPrimary">@color/an9</item>
+        <item name="colorPrimaryDark">@color/an9</item>
+        <item name="colorControlNormal">@color/an9</item>
+        <item name="android:colorForeground">@color/an9</item>
+        <item name="colorPrimaryAlpha">@color/an9a</item>
+        <item name="colorAccent">@color/an13d</item>
+        <item name="colorAlphaAccent">@color/an13ad</item>
+        <item name="primaryAccentColor">@color/bla</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Night.And9" parent="Dark">
+        <item name="colorPrimary">@color/an9</item>
+        <item name="colorPrimaryDark">@color/an9</item>
+        <item name="colorControlNormal">@color/an9</item>
+        <item name="android:colorForeground">@color/an9</item>
+        <item name="colorPrimaryAlpha">@color/an9a</item>
+        <item name="colorAccent">@color/an13</item>
+        <item name="colorAlphaAccent">@color/an13a</item>
+        <item name="primaryAccentColor">@color/bla</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Light.And10" parent="Light">
+        <item name="colorPrimary">@color/an10d</item>
+        <item name="colorPrimaryDark">@color/an10d</item>
+        <item name="colorControlNormal">@color/an10d</item>
+        <item name="android:colorForeground">@color/an10d</item>
+        <item name="colorPrimaryAlpha">@color/an10ad</item>
+        <item name="colorAccent">@color/an6</item>
+        <item name="colorAlphaAccent">@color/an6a</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Night.And10" parent="Dark">
+        <item name="colorPrimary">@color/an10</item>
+        <item name="colorPrimaryDark">@color/an10</item>
+        <item name="colorControlNormal">@color/an10</item>
+        <item name="android:colorForeground">@color/an10</item>
+        <item name="colorPrimaryAlpha">@color/an10a</item>
+        <item name="colorAccent">@color/an6</item>
+        <item name="colorAlphaAccent">@color/an6a</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/bla</item>
+    </style>
+
+    <style name="AIO.Light.And11" parent="Light">
+        <item name="colorPrimary">@color/an11d</item>
+        <item name="colorPrimaryDark">@color/an11d</item>
+        <item name="colorControlNormal">@color/an11d</item>
+        <item name="android:colorForeground">@color/an11d</item>
+        <item name="colorPrimaryAlpha">@color/an11ad</item>
+        <item name="colorAccent">@color/an6</item>
+        <item name="colorAlphaAccent">@color/an6a</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Night.And11" parent="Dark">
+        <item name="colorPrimary">@color/an11</item>
+        <item name="colorPrimaryDark">@color/an11</item>
+        <item name="colorControlNormal">@color/an11</item>
+        <item name="android:colorForeground">@color/an11</item>
+        <item name="colorPrimaryAlpha">@color/an11a</item>
+        <item name="colorAccent">@color/an6</item>
+        <item name="colorAlphaAccent">@color/an6a</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/bla</item>
+    </style>
+
+    <style name="AIO.Light.And12" parent="Light">
+        <item name="colorPrimary">@color/an12d</item>
+        <item name="colorPrimaryDark">@color/an12d</item>
+        <item name="colorControlNormal">@color/an12d</item>
+        <item name="android:colorForeground">@color/an12d</item>
+        <item name="colorPrimaryAlpha">@color/an12ad</item>
+        <item name="colorAccent">@color/an6</item>
+        <item name="colorAlphaAccent">@color/an6a</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Night.And12" parent="Dark">
+        <item name="colorPrimary">@color/an12</item>
+        <item name="colorPrimaryDark">@color/an12</item>
+        <item name="colorControlNormal">@color/an12</item>
+        <item name="android:colorForeground">@color/an12</item>
+        <item name="colorPrimaryAlpha">@color/an12a</item>
+        <item name="colorAccent">@color/an6</item>
+        <item name="colorAlphaAccent">@color/an6a</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Light.And13" parent="Light">
+        <item name="colorPrimary">@color/an13d</item>
+        <item name="colorPrimaryDark">@color/an13d</item>
+        <item name="colorControlNormal">@color/an13d</item>
+        <item name="android:colorForeground">@color/an13d</item>
+        <item name="colorPrimaryAlpha">@color/an13ad</item>
+        <item name="colorAccent">@color/an6</item>
+        <item name="colorAlphaAccent">@color/an6a</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Night.And13" parent="Dark">
+        <item name="colorPrimary">@color/an13</item>
+        <item name="colorPrimaryDark">@color/an13</item>
+        <item name="colorControlNormal">@color/an13</item>
+        <item name="android:colorForeground">@color/an13</item>
+        <item name="colorPrimaryAlpha">@color/an13a</item>
+        <item name="colorAccent">@color/an6</item>
+        <item name="colorAlphaAccent">@color/an6a</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Light.And14" parent="Light">
+        <item name="colorPrimary">@color/an14d</item>
+        <item name="colorPrimaryDark">@color/an14d</item>
+        <item name="colorControlNormal">@color/an14d</item>
+        <item name="android:colorForeground">@color/an14d</item>
+        <item name="colorPrimaryAlpha">@color/an14ad</item>
+        <item name="colorAccent">@color/an6</item>
+        <item name="colorAlphaAccent">@color/an6a</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Night.And14" parent="Dark">
+        <item name="colorPrimary">@color/an14</item>
+        <item name="colorPrimaryDark">@color/an14</item>
+        <item name="colorControlNormal">@color/an14</item>
+        <item name="android:colorForeground">@color/an14</item>
+        <item name="colorPrimaryAlpha">@color/an14a</item>
+        <item name="colorAccent">@color/an6</item>
+        <item name="colorAlphaAccent">@color/an6a</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/bla</item>
+    </style>
+
+    <style name="AIO.Light.And15" parent="Light">
+        <item name="colorPrimary">@color/an15d</item>
+        <item name="colorPrimaryDark">@color/an15d</item>
+        <item name="colorControlNormal">@color/an15d</item>
+        <item name="android:colorForeground">@color/an15d</item>
+        <item name="colorPrimaryAlpha">@color/an15ad</item>
+        <item name="colorAccent">@color/blc</item>
+        <item name="colorAlphaAccent">@color/bal</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="AIO.Night.And15" parent="Dark">
+        <item name="colorPrimary">@color/an15</item>
+        <item name="colorPrimaryDark">@color/an15</item>
+        <item name="colorControlNormal">@color/an15</item>
+        <item name="android:colorForeground">@color/an15</item>
+        <item name="colorPrimaryAlpha">@color/an15a</item>
+        <item name="colorAccent">@color/blc</item>
+        <item name="colorAlphaAccent">@color/bal</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+    </style>
+
+    <style name="Light" parent="Theme.AppCompat">
+        <item name="android:navigationBarColor">@color/bla</item>
+        <item name="rmoBackHint">@color/bhn</item>
+        <item name="rmoGrey">@color/slx</item>
+        <item name="screenText">@color/rmo_text_light</item>
+        <item name="rmoText">@color/bla</item>
+        <item name="rmoTextMi">@color/bbd</item>
+        <item name="android:textColorSecondary">@color/bla</item>
+        <item name="android:textColor">@color/bla</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="rmoBackground">@color/whi</item>
+        <item name="android:windowBackground">@color/whi</item>
+        <item name="android:itemBackground">@color/whi</item>
+    </style>
+
+    <style name="Dark" parent="Theme.AppCompat">
+        <item name="android:navigationBarColor">@color/bbd</item>
+        <item name="rmoBackHint">@color/hbd</item>
+        <item name="rmoGrey">@color/wgl</item>
+        <item name="screenText">@color/rmo_text_color</item>
+        <item name="rmoText">@color/whi</item>
+        <item name="rmoTextMi">@color/wgl</item>
+        <item name="android:textColorSecondary">@color/whi</item>
+        <item name="android:textColor">@color/whi</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="rmoBackground">@color/bbd</item>
+        <item name="android:windowBackground">@color/bbd</item>
+        <item name="android:itemBackground">@color/bbd</item>
+    </style>
+
+</resources>

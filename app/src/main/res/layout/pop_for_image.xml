@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.pt.common.moderator.over.FrameTint
+        android:layout_width="@dimen/rle"
+        android:layout_height="@dimen/rle"
+        android:layout_weight="1"
+        android:background="@drawable/circle"
+        android:backgroundTint="?attr/colorAccent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/searchPic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ripple_oval_card_accent"
+            android:contentDescription="@string/rw"
+            android:padding="8dp"
+            app:srcCompat="@drawable/ic_search"
+            app:tint="?attr/primaryAccentColor" />
+
+    </com.pt.common.moderator.over.FrameTint>
+
+    <com.pt.common.moderator.over.FrameTint
+        android:layout_width="@dimen/rle"
+        android:layout_height="@dimen/rle"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:background="@drawable/circle"
+        android:backgroundTint="?attr/colorAccent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/calPick"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ripple_oval_card_accent"
+            android:padding="8dp"
+            app:srcCompat="@drawable/ic_calender" />
+
+    </com.pt.common.moderator.over.FrameTint>
+
+    <com.pt.common.moderator.over.FrameTint
+        android:layout_width="@dimen/rle"
+        android:layout_height="@dimen/rle"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:background="@drawable/circle"
+        android:backgroundTint="?attr/colorAccent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imagePic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ripple_oval_card_accent"
+            android:contentDescription="@string/zs"
+            app:srcCompat="@drawable/ic_pic_to_data" />
+
+    </com.pt.common.moderator.over.FrameTint>
+
+    <com.pt.common.moderator.over.FrameTint
+        android:layout_width="@dimen/rle"
+        android:layout_height="@dimen/rle"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:background="@drawable/circle"
+        android:backgroundTint="?attr/colorAccent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/scanner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ripple_oval_card_accent"
+            android:padding="8dp"
+            app:srcCompat="@drawable/ic_scanner_icon" />
+
+    </com.pt.common.moderator.over.FrameTint>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

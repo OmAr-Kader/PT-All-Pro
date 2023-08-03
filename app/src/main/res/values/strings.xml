@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PT: All Pro</string>
+    <string name="icon_name" translatable="false">PT: All Pro</string>
+
+    <string name="app_description" translatable="false">*Apps multitude lead to clutter on the phone, how about one full-featured app that offers you:
+\n1️⃣ Alarm Clock ⏰⏰
+\n2️⃣ Gallery 🌄🎞️
+\n3️⃣ File manager 📁📂
+\n4️⃣ Music player 🎧🎼
+\n5️⃣ Phone Dialer 📱📞
+\n6️⃣ Notepad with Counter 🗒️🗓️
+\n7️⃣Screen Recorder app and screenshot ⏺️📱
+\n
+\n*ABSOLUTE PRIVACY
+\n"PT: All Pro" doesn\'t contain tracking or any ads or collect any information back to its developer or any third party.
+\n*This App require Full Access Permission For storage
+\n
+\nPT: Music Player 🎧🎼
+\n- Offline Free song player app for Android
+\n- For next level music listening experience
+\n- Music makes you happy and "off the ground", is Song Player supposed to be "off the screen"?
+\n- "PT: Music Player" completely out of application - play songs in the background - with cool UI
+\n- Change tracks, song play, play album or artist tracks while you play games or scrolling in social media apps without return to App
+\n- Create and save your Playlist
+\n- Play tracks in sequence or shuffle
+\n- Play songs by artist, album, or playlist
+\n- Quick Settings icon in Notification Bar *Pro version*
+\n- Lock screen player for easy music controller when your MP3 player is playing
+\n
+\nPT: Phone Dialer 📱📞
+\n- App provides a Default Phone handler as Dialer
+\n- Phone dialer for your Android phone, powered with Smart Contacts Search, Call Log History
+\n- immediately Listing all Contact and Log details while scrolling ,including Social Conversation\'s Contact
+\n- Replace your stock phone App and take your phone dialling experience to the next level.
+\n
+\nPT: Gallery: 🌄🎞️
+\n-  Movies in the - picture-in-picture - overlay feature
+\n- Gallery contains "Pending table" for choosing media from any folder for sharing, editing and anything else
+\n- Now Easily share / delete / hide / copy and cut photos and videos / add to favourites / resort *Pro version* ,.. etc
+\n- Change the device volume, brightness and rotation from the application
+\n*Pro version*
+\n- Search the entire gallery not just one folder
+\n- Easily filter photos and videos to find it faster with premium UI
+\n- You can extract text from images via OCR - text free scanner -
+\n
+\nPT: File Manager 📁📂
+\n- Main files as categories: Images / Videos / Audio / Documents / and Archives
+\n- As you browse in the device storage freely with premium UI
+\n- Free File explorer allows to change track tags and Cover
+\n- PT: File Manager gives you a feature like PDF Reader - Internal photo viewer - offline
+\n- PDF Viewer have fast scroll button and you can Change slides Orientation individually
+\nMP3 player - mp4 movies player - pending table - hide items - open as - add to favourites - resort *Pro version*,.. etc
+\n- Create new folder and Copy files to the new folder is good for organise, but bad for Device Storage , you can create Virtual Folder and add any files and folders you want *Pro version*
+\n
+\nPT: Alarm clock ⏰⏰
+\n- Set alarm time by two different ways - both convenient - choose what you want "Circle Clock or Spinner"
+\n- One way to stop ringing gets boring over time and ineffective
+\n- "PT: Alarm clock" offer four different ways: Single swipe, Double swipe *Pro version*, Single click, Shake Device
+\n- Set alarm ringtone, vibration activation , background *Pro version* and Repetition(Optional)
+\n- Record a voice that makes you happy to wake up to play it after the ringtone *Pro version*
+\n
+\nPT: Overlay ⏺️📱
+\n- PT: Overlay presents Floating Head for screen recorder app with audio, Open app more easier and faster, screenshot - full page screen capture
+\n- Navigation Ball for change brightness and sound level
+\n- Just one swipe in for start Free Screen Recorder App or full page screen capture
+\n
+\nPT: Notepad 🗒️🗓️
+\n- To keep save all notes and data organised , secure and not annoying
+\n- Whatever you can imagine to keep save, Like a photo, recording web link, email , OCR Text
+\n- choose a date to notify by a note if you want
+\n*Pro version*
+\n- you can filter by note type and month or day with calendar
+\n- you don\'t need keep many photos for its text , Notepad contains "PT: OCR" for text free extraction
+    </string>
+
+    <string name="c">C</string>
+    <string name="dt">Confirm Delete Item</string>
+    <string name="dc">Are you sure you would like to delete this item?</string>
+    <string name="ys">Yes</string>
+    <string name="no">No</string>
+    <string name="sv">save</string>
+    <string name="ad">add</string>
+    <string name="cr">Counter</string>
+    <string name="ed">Edit Alarm</string>
+    <string name="al">Add Alarm</string>
+    <string name="d4">Alarm Deleted</string>
+    <string name="sm">Set Alarm</string>
+    <string name="rp">Repeating</string>
+    <string name="d1">Delete</string>
+    <string name="r9">Ringtone</string>
+    <string name="ss">Screenshot</string>
+    <string name="sr">Screen Record</string>
+    <string name="hq">High Quality</string>
+    <string name="mq">Medium Quality</string>
+    <string name="py">No Images on this device</string>
+    <string name="pp">Properties</string>
+    <string name="st">Select All</string>
+    <string name="rm">Rename</string>
+    <string name="pd">Add To Clipboard</string>
+    <string name="pt">Add To Pending Table</string>
+    <string name="na">Name</string>
+    <string name="dm">Dimensions</string>
+    <string name="df">Last Modified</string>
+    <string name="sz">Size</string>
+    <string name="im">Selected Items</string>
+    <string name="tz">Total Size</string>
+    <string name="ph">Location</string>
+    <string name="cg">Copy</string>
+    <string name="mg">Move</string>
+    <string name="nn">New Name</string>
+    <string name="zr">00:00</string>
+    <string name="sa">set as</string>
+    <string name="p1">share</string>
+    <string name="bg">Background</string>
+    <string name="io">Important</string>
+    <string name="ur">Link</string>
+    <string name="rb">Remember</string>
+    <string name="dd">Dark Mode</string>
+    <string name="vb">Vibration</string>
+    <string name="se">Save</string>
+    <string name="rd">Image Renamed</string>
+    <string name="co">Close</string>
+    <string name="er">Enter</string>
+    <string name="aw">Alarm will ring after</string>
+    <string name="pf">Please grant external storage permission</string>
+    <string name="dn">Done</string>
+    <string name="gis">S</string>
+    <string name="tm">PT: Screen capture</string>
+    <string name="tg">PT: Alarm</string>
+    <string name="rg">PT: Gallery</string>
+    <string name="md">Mon</string>
+    <string name="td">Tues</string>
+    <string name="wd">Wed</string>
+    <string name="ts">Thur</string>
+    <string name="fd">Fri</string>
+    <string name="sy">Sat</string>
+    <string name="su">Sun</string>
+    <string name="wk">M Tu W Th F Sa Su</string>
+    <string name="gt">Get</string>
+    <string name="up">Up</string>
+    <string name="bz">00:00:00</string>
+    <string name="ao">Audio</string>
+    <string name="ac">Alarm Canceled</string>
+    <string name="rf">PT: Screen Record Finished</string>
+    <string name="rs">PT: Screen Record Started</string>
+    <string name="sh">PT: Screenshot</string>
+    <string name="cl">Floating Video Closed</string>
+    <string name="ap">Picture Added To Pending Table</string>
+    <string name="uy">Unable to play</string>
+    <string name="ps">Images</string>
+    <string name="ro">Records</string>
+    <string name="tp">Text copied</string>
+    <string name="d5">Screencast Permission Denied</string>
+    <string name="cf">Choose Notification Time</string>
+    <string name="nd">Notification Added</string>
+    <string name="pe">Pending Table is empty</string>
+    <string name="si">Select Image</string>
+    <string name="hn">Simple Alarm</string>
+    <string name="hc">Notification</string>
+    <string name="le">Screen Capture</string>
+    <string name="dj">Days</string>
+    <string name="ks">Tags</string>
+    <string name="vk">Invalid Link</string>
+    <string name="yn">Enter Your Name</string>
+    <string name="un">UserName</string>
+    <string name="op">No Editor App Found</string>
+    <string name="yt">Theme</string>
+    <string name="gl">General</string>
+    <string name="am">Alarm</string>
+    <string name="vt">Interval Minutes</string>
+    <string name="zt">Snooze Minutes</string>
+    <string name="ta">Start</string>
+    <string name="l4">Lap</string>
+    <string name="s6">Stop</string>
+    <string name="rt">Reset</string>
+    <string name="xt">PT: Extra</string>
+    <string name="rv">Video is Renamed</string>
+    <string name="ma">PT: Missed Alarm</string>
+    <string name="ms">Missed Alarm</string>
+    <string name="pl">You have a missed alarm in </string>
+    <string name="t3">Ringing times</string>
+    <string name="vi">Increase the volume every</string>
+    <string name="gw"> was ringing for </string>
+    <string name="fi">Failed to load Image</string>
+    <string name="qk">Start Record</string>
+    <string name="y1">day and</string>
+    <string name="y5">days and</string>
+    <string name="tv">PT: Floating Video</string>
+    <string name="fv">Floating Video</string>
+    <string name="a6">Floating Video provider</string>
+    <string name="ax">loading..</string>
+    <string name="z6">Link copied</string>
+    <string name="ry">Gallery</string>
+    <string name="ca">Columns count</string>
+    <string name="zu">High resolution grid pictures</string>
+    <string name="mu">minute</string>
+    <string name="us">minutes</string>
+    <string name="i1">time</string>
+    <string name="i5">times</string>
+    <string name="ns">seconds</string>
+    <string name="r3">(Repeated Alarm)</string>
+    <string name="hp">Assistive Head</string>
+    <string name="pc">Assistive Head provider for Apps and Navigation</string>
+    <string name="ix">Please grant permission of mic</string>
+    <string name="or">must enable device administrator</string>
+    <string name="xp">Unable to export database.</string>
+    <string name="px">No file explorer apps found.</string>
+    <string name="mp">import database Successful</string>
+    <string name="la">Unable to import all database. Retry</string>
+    <string name="ui">Unable to import database. Retry</string>
+    <string name="mr">Please,Use a official file manager</string>
+    <string name="ud">Undo</string>
+    <string name="s4">added to done list</string>
+    <string name="fk">removed from done list</string>
+    <string name="mt">item is deleted</string>
+    <string name="dr">Reload</string>
+    <string name="f7">Media folder is needed to save images and videos</string>
+    <string name="rl">Floating window Permission denied</string>
+    <string name="pr">Please grant the required permissions</string>
+    <string name="pv">Back Up</string>
+    <string name="bw">Do you want to backup data?</string>
+    <string name="qm">File:</string>
+    <string name="lz">Open Media folder</string>
+    <string name="pj">Notification text should not be empty</string>
+    <string name="ve">Doesn\'t recommended remove or move a hidden content!</string>
+    <string name="yk">OK</string>
+    <string name="fa">Hide</string>
+    <string name="hu">hide/un-hide</string>
+    <string name="hm">un-hide</string>
+    <string name="gp">picture</string>
+    <string name="vo">video</string>
+    <string name="an">and</string>
+    <string name="bu">something you bought</string>
+    <string name="pm">price</string>
+    <string name="ce">ALL</string>
+    <string name="hr">Song or Artist</string>
+    <string name="lg">Gallery</string>
+    <string name="fw">File Manager</string>
+    <string name="fq">PT: File Manager</string>
+    <string name="ow">Show&#160;</string>
+    <string name="ag">hidden contents</string>
+    <string name="ge">Select service:</string>
+    <string name="mi">for device storage scanner</string>
+    <string name="lo">file</string>
+    <string name="kd">Sub files Count</string>
+    <string name="zg">Duration</string>
+    <string name="mb">Please, allow permission for management of all files</string>
+    <string name="cx">Create New Folder</string>
+    <string name="za">folder name</string>
+    <string name="qe">Select file</string>
+    <string name="dq">Confirm delete</string>
+    <string name="zh">PT: Music Player</string>
+    <string name="kp">Music player control provider</string>
+    <string name="mk">Music Player</string>
+    <string name="xk">Audio Player</string>
+    <string name="fx">favorite</string>
+    <string name="uv">un-favorite</string>
+    <string name="ir">Internal</string>
+    <string name="jr">Virtual</string>
+    <string name="gd">Folder is already existed</string>
+    <string name="wn">Swipe Down</string>
+    <string name="sf">Snooze</string>
+    <string name="az">Slide to Snooze</string>
+    <string name="gr">Single\nclick</string>
+    <string name="gh">Single\nswipe</string>
+    <string name="jq">Double\nswipe</string>
+    <string name="sd">Shake\nDevice</string>
+    <string name="wa">Dismissing Way</string>
+    <string name="qo">About</string>
+    <string name="gy">Sort Folders by</string>
+    <string name="gq">Sort Files by</string>
+    <string name="zw">Sort Media by</string>
+    <string name="to">To :</string>
+    <string name="bj">Subject :</string>
+    <string name="m9">Email :</string>
+    <string name="ql">Email is empty</string>
+    <string name="xv">Use PT: Gallery for Pictures</string>
+    <string name="bh">Use PT: Gallery for Videos</string>
+    <string name="fg">Use PT: Music Player for Audio</string>
+    <string name="qp">Email</string>
+    <string name="pu">Emails</string>
+    <string name="li">Libraries &amp; Licenses</string>
+    <string name="cq">Compress Photos</string>
+    <string name="dv">The filter includes done data</string>
+    <string name="ci">Photos</string>
+    <string name="vc">Videos</string>
+    <string name="af">Audio</string>
+    <string name="um">Documents</string>
+    <string name="ec">Archives</string>
+    <string name="nr">Path is Not a folder</string>
+    <string name="fs">"Alarm fired"</string>
+    <string name="pn">Alarm provider for media player and schedule repeating alarm</string>
+    <string name="nm">No email apps found.</string>
+    <string name="dh">Date Ascending</string>
+    <string name="eb">Date Descending</string>
+    <string name="nf">Name Ascending</string>
+    <string name="bd">Name Descending</string>
+    <string name="vf">Size Ascending</string>
+    <string name="ey">Size Descending</string>
+    <string name="mc">Folder</string>
+    <string name="lj">File</string>
+    <string name="pg">Title</string>
+    <string name="sp">Subtitle</string>
+    <string name="iq">Description</string>
+    <string name="a5">Cancel</string>
+    <string name="po">Enable protection</string>
+    <string name="wt">No biometrics, PIN or password is enrolled</string>
+    <string name="hs">PT:</string>
+    <string name="fp">Launch</string>
+    <string name="fc">Floating Head</string>
+    <string name="ip">For Navigation and Power buttons</string>
+    <string name="ml">Transparent Assistive</string>
+    <string name="me">Opening editor after capture</string>
+    <string name="pa">Use english language</string>
+    <string name="oc">Opening Camera App</string>
+    <string name="sq">Search on all images and videos</string>
+    <string name="ls">Show All images and videos on Device</string>
+    <string name="vw">Virtual table for all folders\' images and videos</string>
+    <string name="fl">Sort folders, images and videos</string>
+    <string name="vq">Virtual table for all folders and files</string>
+    <string name="fh">Sort folders and files</string>
+    <string name="lp">Show All folders and files on Device</string>
+    <string name="sw">Paste items into current Path</string>
+    <string name="sl">Create New File on Device storage or virtual on app</string>
+    <string name="sb">Search on current Folder</string>
+    <string name="sx">Switch between favorites and device files categories</string>
+    <string name="lh">Add new Alarm</string>
+    <string name="lb">Save alarm details for launching</string>
+    <string name="lc">Dismiss way for Alarm</string>
+    <string name="lw">Choose a background for dismiss screen</string>
+    <string name="lk">Choose a ringtone for alarm</string>
+    <string name="lq">Switch between “circle” and “spinner” Time picker</string>
+    <string name="ly">More Options</string>
+    <string name="lt">Add to Favorites</string>
+    <string name="lu">To find \“Editor App\” For Images and videos</string>
+    <string name="ln">Save Rotation Change</string>
+    <string name="ll">Delete the current file</string>
+    <string name="lf">Share the current file</string>
+    <string name="fy">Pick a Picture with printed black text with a white background for Text
+        extractor</string>
+    <string name="pk">Share Text</string>
+    <string name="pz">Translate text in Translation App</string>
+    <string name="ew">Extend for options</string>
+    <string name="ef">set notification</string>
+    <string name="vh">Create</string>
+    <string name="vl">Import</string>
+    <string name="nl">Never</string>
+    <string name="vd">Empty</string>
+    <string name="vp">Pending</string>
+    <string name="vs">Edit current Song Details</string>
+    <string name="va">Open in “PT: Music Player”</string>
+    <string name="ba">Enter Playlist Name</string>
+    <string name="np">Name copied</string>
+    <string name="tc">Path copied</string>
+    <string name="xe">Failed</string>
+    <string name="nh">Navigation Ball</string>
+    <string name="ne">Show (Voice notes) in Music Player</string>
+    <string name="nt">Current Path is Not a folder</string>
+    <string name="ab">Albums</string>
+    <string name="ae">Artists</string>
+    <string name="ww">Current Playlist</string>
+    <string name="ak">All Songs</string>
+    <string name="pq">All Playlists</string>
+    <string name="aj">Save Current Playlist</string>
+    <string name="cz">&#160; column</string>
+    <string name="cv">&#160; columns</string>
+    <string name="so">Select Tone</string>
+    <string name="dw">Today</string>
+    <string name="tt">Name</string>
+    <string name="at">Album</string>
+    <string name="qr">Artist</string>
+    <string name="hw">No Audio file found</string>
+    <string name="wx">Setting</string>
+    <string name="au">PT: About</string>
+    <string name="wr">Add shortcut icon to Home screen</string>
+    <string name="bc">Bass Level</string>
+    <string name="bv">Device Bass Level</string>
+    <string name="bf">Changes will be applied in the next reboot</string>
+    <string name="by">Search Engine</string>
+    <string name="pw">Clear current Playlist</string>
+    <string name="rw">Search on current list</string>
+    <string name="wz">Play Current song list</string>
+    <string name="jw">Exploring all “Android” file just in Google File manager</string>
+    <string name="qw">Open</string>
+    <string name="wq">Web Search</string>
+    <string name="wy">Search for text on “Search engine”</string>
+    <string name="ki">Display Images only</string>
+    <string name="kv">Display Videos only</string>
+    <string name="kc">Display mode for Images &amp; Videos</string>
+    <string name="kk">Depending on Background</string>
+    <string name="kw">White</string>
+    <string name="kh">Dark</string>
+    <string name="kq">Widget Text Color</string>
+    <string name="kl">Add to current song list</string>
+    <string name="ws">Stopwatch</string>
+    <string name="ot">Initialize for “android auto” takes time to be ready</string>
+    <string name="cw">CLOSE ALL</string>
+    <string name="iz">Pause Music After last interaction After</string>
+    <string name="gz">Choose a date</string>
+    <string name="zs">Add image from storage</string>
+    <string name="zd">Notepad</string>
+    <string name="zn">Note</string>
+
+    <string name="zf">Extend</string>
+    <string name="zq">SD Card</string>
+    <string name="qa">Off</string>
+    <string name="qq">On</string>
+    <string name="qu">Overlay</string>
+    <string name="qb">Privacy Policy</string>
+    <string name="qc">Privacy Policy Link</string>
+    <string name="qn">Contact the developer via Gmail</string>
+    <string name="qv">Suggest The App to a Friend</string>
+    <string name="qx">Version: </string>
+    <string name="ux">Upgrade</string>
+    <string name="ub">Upgrade To “PT: All Pro“</string>
+    <string name="zj">Unlock</string>
+    <string name="zb">Lock Screen for Music Player</string>
+
+    <string name="fz">Use “PDF Viewer“</string>
+
+    <string name="av">Play</string>
+    <string name="wv">Use “Text Viewer“</string>
+    <string name="zv">Use “Zip Viewer“</string>
+    <string name="wb">Keep screen light on for “Text Viewer“</string>
+    <string name="wp">Keep screen light on for “PDF Viewer“</string>
+    <string name="wl">Keep screen light on for “Gallery Viewer“</string>
+
+    <string name="bm">Mute</string>
+    <string name="uw">Un-mute</string>
+    <string name="zy">Next</string>
+    <string name="zp">Previous</string>
+    <string name="mx">Show more</string>
+
+    <string name="t6">PT: OCR</string>
+    <string name="t8">Scanner</string>
+    <string name="t5">Translate</string>
+    <string name="xd">No Text detected, works on printed black text with a white background</string>
+    <string name="sn">Extract Text (OCR)</string>
+
+
+    <string name="yr" translatable="false">Create A Virtual Folder</string>
+    <string name="aq" translatable="false">Add to a virtual folder</string>
+    <string name="rx" translatable="false">Remove from a virtual folder</string>
+
+    <string name="nv">- The note will be saved on the last schedule you used it on</string>
+    <string name="xg">PDF Viewer</string>
+    <string name="fr">Text Viewer</string>
+    <string name="uz">Copy statuses in a external folder for display after delete</string>
+    <string name="uq" translatable="false">Statuses</string>
+
+    <string name="zl" translatable="false">Zip Viewer</string>
+    <string name="fn" translatable="false">Phone Numbers</string>
+    <string name="ze" translatable="false">Theme\'s Color</string>
+    <string name="ff" translatable="false">Application Icons</string>
+    <string name="fe" translatable="false">Options</string>
+    <string name="yz" translatable="false">Enter Phone Number</string>
+    <string name="ye" translatable="false">scrolling All Contact Details</string>
+    <string name="ya" translatable="false">scrolling bar</string>
+
+    <string name="dx" translatable="false">Confirm Privacy Policy</string>
+    <string name="di" translatable="false">Your usage of "PT: All Pro" and our services is subject to our Terms of Use and your information will be handled as detailed in our Privacy Policy.
+\nPlease review our <u>Privacy Policy</u> prior to using "PT: All Pro" App and services.\n
+</string>
+    <string name="db" translatable="false">ACCEPT</string>
+
+    <string-array name="dv">
+        <item>M</item>
+        <item>Tu</item>
+        <item>W</item>
+        <item>Th</item>
+        <item>F</item>
+        <item>Sa</item>
+        <item>Su</item>
+    </string-array>
+
+    <string-array name="sg">
+        <item>Milk</item>
+        <item>Cheese</item>
+        <item>Meat</item>
+        <item>Chicken</item>
+        <item>Bread</item>
+        <item>Fish</item>
+        <item>Pasta</item>
+        <item>Rice</item>
+        <item>Spices</item>
+        <item>Fruits</item>
+        <item>Potatoes</item>
+        <item>Vegetables</item>
+        <item>Eggs</item>
+    </string-array>
+
+    <string name="kz" translatable="false">Search For Music</string>
+
+    <string name="amb" translatable="false">Ad</string>
+
+    <string name="ul" translatable="false">“PT: All Pro“ extra features</string>
+
+    <string name="uc" translatable="false">\n
+\n
+PT: Alarm\n
+- “Double swipe“ for stopping ringing\n
+- Set alarm background \n
+- Record a voice that makes you happy to wake up to play it after the ringtone\n
+\n
+PT: Gallery\n
+- Easily resort\n
+- Search the entire gallery not just one folder\n
+- Easily filter photos and videos to find it faster with simple UI\n
+- You can extract text from images via OCR - text free scanner -\n
+\n
+PT: File Manager\n
+- Easily resort\n
+- Create new folder and Copy files to the new folder is good for organise, but bad for Device Storage , you can create Virtual Folder and add any files and folders you want\n
+\n
+PT: Notepad\n
+- you can filter by note type and month or day with calendar \n
+- you don\'t need keep many picture for its text , Notepad contains “PT: OCR“ for text free extraction\n
+\n
+PT: Music Player\n
+- Quick Settings icon in Notification Bar\n
+\n
+    </string>
+
+    <string name="nq" translatable="false">m</string>
+    <string name="mw" translatable="false">- Just <b>Powerful Tools</b> assembled in one Application</string>
+    <string name="mh" translatable="false">- Most of items can long press for description</string>
+
+    <string name="lis_glide" translatable="false"><big><b>Glide</b></big>
+        \n<u>https://github.com/bumptech/glide</u>
+        \nCopyright 2014 Google, Inc. All rights reserved.
+        \nRedistribution and use in source and binary forms, with or without modification, are
+        permitted provided that the following conditions are met:
+        \n1. Redistributions of source code must retain the above copyright notice, this list of
+        conditions and the following disclaimer.
+        \n2. Redistributions in binary form must reproduce the above copyright notice,
+        this list of conditions and the following disclaimer in the documentation and/or other
+        materials provided with the distribution.
+        \nTHIS SOFTWARE IS PROVIDED BY GOOGLE, INC. —AS IS AND ANY EXPRESS OR IMPLIED WARRANTIES,
+        INCLUDING, BUT NOT LIMITED TO,
+        THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL GOOGLE, INC.
+        OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+        OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+        OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+        HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+        STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+        THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</string>
+
+    <string name="lis_kotlin" translatable="false"><big><b>Kotlin</b></big>
+        \n<u>https://github.com/JetBrains/kotlin</u>
+        \nCopyright 2010 - 2018 JetBrains s.r.o.
+        \n<u>https://www.apache.org/licenses/LICENSE-2.0</u>
+        \nUnless required by applicable law or agreed to in writing, software distributed under
+        the License is distributed on an AS IS BASIS,WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+        either express or implied.See the License for the specific language governing permissions
+        and limitations under the License.</string>
+
+    <string name="lis_sub" translatable="false"><big><b>Subsampling Scale Image View</b></big>
+        \n<u>https://github.com/davemorrissey/subsampling-scale-image-view</u>
+        \nCopyright 2018 David Morrissey
+        \nLicensed under the Apache License, Version 2.0 (the License); you may not use this file
+        except in compliance with the License.You may obtain a copy of the License at
+        \n<u>https://www.apache.org/licenses/LICENSE-2.0</u>
+        \nUnless required by applicable law or agreed to in writing, software distributed under the
+        License is distributed on an AS IS BASIS,WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+        either express or implied.See the License for the specific language governing permissions
+        and limitations under the License.</string>
+
+    <string name="lis_panel" translatable="false"><big><b>AndroidSlidingUpPanel</b></big>
+        \n<u>https://github.com/umano/AndroidSlidingUpPanel</u>
+        \nCopyright 2015 Umano http://umano.me
+        \nLicensed under the Apache License, Version 2.0 (the License); you may not use this file
+        except in compliance with the License. You may obtain a copy of the License at
+        \n<u>http://www.apache.org/licens es/LICENSE-2.0</u>
+        \nUnless required by applicable law or agreed to in writing, software distributed under the
+        License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+        either express or implied. See the License for the specific language governing permissions
+        and limitations under the License.</string>
+
+    <string name="lis_pick" translatable="false"><big><b>TimePicker</b></big>
+        \n<u>https://github.com/Sztorm/TimePicker</u>
+        \nCopyright 2021 Sztorm
+        \nLicensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at
+        \n<u>http://www.apache.org/licenses/LICENSE-2.0</u>
+        \nUnless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.</string>
+
+    <string name="lis_rip" translatable="false"><big><b>Android Ripple Background</b></big>
+        \n<u>https://github.com/skyfishjy/android-ripple-background</u>
+        \nMIT License
+        \nCopyright (c) 2014 Yao Yu
+        \nPermission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        \nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.</string>
+
+    <string name="lis_ala" translatable="false"><big><b>Simple Alarms</b></big>
+        \n<u>https://github.com/PPartisan/Simple-Alarms</u>
+        \nMIT License
+        \nCopyright (c) 2017 Tom Calver
+        \nPermission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.</string>
+
+    <string name="lis_soup" translatable="false"><big><b>jsoup</b></big>
+        \n<u>https://jsoup.org/license</u>
+        \nThe jsoup code-base (including source and compiled packages)
+        are distributed under the open source MIT license as described below.
+        \nThe MIT License
+        \nCopyright © 2009 - 2021 Jonathan Hedley (https://jsoup.org/)
+        \nPermission is hereby granted, free of charge, to any person obtaining a copy of this
+        software and associated documentation files (the "Software"), to deal in the Software
+        without restriction, including without limitation the rights to use, copy, modify, merge,
+        publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons
+        to whom the Software is furnished to do so, subject to the following conditions:
+        \nThe above copyright notice and this permission notice shall be included in all copies
+        or substantial portions of the Software.
+        \nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+        INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+        PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+        FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+        OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+        DEALINGS IN THE SOFTWARE.
+    </string>
+
+    <string name="lis_tagger" translatable="false"><big><b>jaudiotagger</b></big>
+        \n<u>https://github.com/Kaned1as/jaudiotagger</u>
+        \njaudiotagger:audio tagging library Copyright (C) 2015 Paul Taylor
+        \nThis library is free software; you can redistribute it and/or modify it under the terms of
+        the GNU Lesser General Public License as published by the Free Software Foundation;
+        either version 2.1 of the License, or (at your option) any later version.
+        \nThis library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+        without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+        See the GNU Lesser General Public License for more details.
+        /nGNU LESSER GENERAL PUBLIC LICENSE
+        /nVersion 2.1, February 1999
+        /nCopyright (C) 1991, 1999 Free Software Foundation, Inc.
+        59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+        /nEveryone is permitted to copy and distribute verbatim copies
+        of this license document, but changing it is not allowed.
+        /n[This is the first released version of the Lesser GPL.  It also counts
+        as the successor of the GNU Library Public License, version 2, hence
+        the version number 2.1.]
+        /nPreamble
+        /nThe licenses for most software are designed to take away your
+        freedom to share and change it.  By contrast, the GNU General Public
+        Licenses are intended to guarantee your freedom to share and change
+        free software--to make sure the software is free for all its users.
+        /nThis license, the Lesser General Public License, applies to some
+        specially designated software packages--typically libraries--of the
+        Free Software Foundation and other authors who decide to use it.  You
+        can use it too, but we suggest you first think carefully about whether
+        this license or the ordinary General Public License is the better
+        strategy to use in any particular case, based on the explanations below.
+        /nWhen we speak of free software, we are referring to freedom of use,
+        not price.  Our General Public Licenses are designed to make sure that
+        you have the freedom to distribute copies of free software (and charge
+        for this service if you wish); that you receive source code or can get
+        it if you want it; that you can change the software and use pieces of
+        it in new free programs; and that you are informed that you can do
+        these things.
+        /nTo protect your rights, we need to make restrictions that forbid
+        distributors to deny you these rights or to ask you to surrender these
+        rights.  These restrictions translate to certain responsibilities for
+        you if you distribute copies of the library or if you modify it.
+        /nFor example, if you distribute copies of the library, whether gratis
+        or for a fee, you must give the recipients all the rights that we gave
+        you.  You must make sure that they, too, receive or can get the source
+        code.  If you link other code with the library, you must provide
+        complete object files to the recipients, so that they can relink them
+        with the library after making changes to the library and recompiling
+        it.  And you must show them these terms so they know their rights.
+        /nWe protect your rights with a two-step method: (1) we copyright the
+        library, and (2) we offer you this license, which gives you legal
+        permission to copy, distribute and/or modify the library.
+        /nTo protect each distributor, we want to make it very clear that
+        there is no warranty for the free library.  Also, if the library is
+        modified by someone else and passed on, the recipients should know
+        that what they have is not the original version, so that the original
+        author\'s reputation will not be affected by problems that might be
+        introduced by others.
+        /nFinally, software patents pose a constant threat to the existence of
+        any free program.  We wish to make sure that a company cannot
+        effectively restrict the users of a free program by obtaining a
+        restrictive license from a patent holder.  Therefore, we insist that
+        any patent license obtained for a version of the library must be
+        consistent with the full freedom of use specified in this license.
+        /nMost GNU software, including some libraries, is covered by the
+        ordinary GNU General Public License.  This license, the GNU Lesser
+        General Public License, applies to certain designated libraries, and
+        is quite different from the ordinary General Public License.  We use
+        this license for certain libraries in order to permit linking those
+        libraries into non-free programs.
+        /nWhen a program is linked with a library, whether statically or using
+        a shared library, the combination of the two is legally speaking a
+        combined work, a derivative of the original library.  The ordinary
+        General Public License therefore permits such linking only if the
+        entire combination fits its criteria of freedom.  The Lesser General
+        Public License permits more lax criteria for linking other code with
+        the library.
+        /nWe call this license the "Lesser" General Public License because it
+        does Less to protect the user\'s freedom than the ordinary General
+        Public License.  It also provides other free software developers Less
+        of an advantage over competing non-free programs.  These disadvantages
+        are the reason we use the ordinary General Public License for many
+        libraries.  However, the Lesser license provides advantages in certain
+        special circumstances.
+        /nFor example, on rare occasions, there may be a special need to
+        encourage the widest possible use of a certain library, so that it becomes
+        a de-facto standard.  To achieve this, non-free programs must be
+        allowed to use the library.  A more frequent case is that a free
+        library does the same job as widely used non-free libraries.  In this
+        case, there is little to gain by limiting the free library to free
+        software only, so we use the Lesser General Public License.
+        /nIn other cases, permission to use a particular library in non-free
+        programs enables a greater number of people to use a large body of
+        free software.  For example, permission to use the GNU C Library in
+        non-free programs enables many more people to use the whole GNU
+        operating system, as well as its variant, the GNU/Linux operating
+        system.
+        /nAlthough the Lesser General Public License is Less protective of the
+        users\' freedom, it does ensure that the user of a program that is
+        linked with the Library has the freedom and the wherewithal to run
+        that program using a modified version of the Library.
+        /nThe precise terms and conditions for copying, distribution and
+        modification follow.  Pay close attention to the difference between a
+        "work based on the library" and a "work that uses the library".  The
+        former contains code derived from the library, whereas the latter must
+        be combined with the library in order to run.
+        /nGNU LESSER GENERAL PUBLIC LICENSE
+        /nTERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+        /n0. This License Agreement applies to any software library or other
+        program which contains a notice placed by the copyright holder or
+        other authorized party saying it may be distributed under the terms of
+        this Lesser General Public License (also called "this License").
+        Each licensee is addressed as "you".
+        /nA "library" means a collection of software functions and/or data
+        prepared so as to be conveniently linked with application programs
+        (which use some of those functions and data) to form executables.
+        /nThe "Library", below, refers to any such software library or work
+        which has been distributed under these terms.  A "work based on the
+        Library" means either the Library or any derivative work under
+        copyright law: that is to say, a work containing the Library or a
+        portion of it, either verbatim or with modifications and/or translated
+        straightforwardly into another language.  (Hereinafter, translation is
+        included without limitation in the term "modification".)
+        /n"Source code" for a work means the preferred form of the work for
+        making modifications to it.  For a library, complete source code means
+        all the source code for all modules it contains, plus any associated
+        interface definition files, plus the scripts used to control compilation
+        and installation of the library.
+        /nActivities other than copying, distribution and modification are not
+        covered by this License; they are outside its scope.  The act of
+        running a program using the Library is not restricted, and output from
+        such a program is covered only if its contents constitute a work based
+        on the Library (independent of the use of the Library in a tool for
+        writing it).  Whether that is true depends on what the Library does
+        and what the program that uses the Library does.
+        /n1. You may copy and distribute verbatim copies of the Library\'s
+        complete source code as you receive it, in any medium, provided that
+        you conspicuously and appropriately publish on each copy an
+        appropriate copyright notice and disclaimer of warranty; keep intact
+        all the notices that refer to this License and to the absence of any
+        warranty; and distribute a copy of this License along with the
+        Library.
+        /nYou may charge a fee for the physical act of transferring a copy,
+        and you may at your option offer warranty protection in exchange for a
+        fee.
+        /n2. You may modify your copy or copies of the Library or any portion
+        of it, thus forming a work based on the Library, and copy and
+        distribute such modifications or work under the terms of Section 1
+        above, provided that you also meet all of these conditions:
+            a) The modified work must itself be a software library.
+            b) You must cause the files modified to carry prominent notices
+            stating that you changed the files and the date of any change.
+            c) You must cause the whole of the work to be licensed at no
+            charge to all third parties under the terms of this License.
+            d) If a facility in the modified Library refers to a function or a
+            table of data to be supplied by an application program that uses
+            the facility, other than as an argument passed when the facility
+            is invoked, then you must make a good faith effort to ensure that,
+            in the event an application does not supply such function or
+            table, the facility still operates, and performs whatever part of
+            its purpose remains meaningful.
+            (For example, a function in a library to compute square roots has
+            a purpose that is entirely well-defined independent of the
+            application.  Therefore, Subsection 2d requires that any
+            application-supplied function or table used by this function must
+            be optional: if the application does not supply it, the square
+            root function must still compute square roots.)
+        These requirements apply to the modified work as a whole.  If
+        identifiable sections of that work are not derived from the Library,
+        and can be reasonably considered independent and separate works in
+        themselves, then this License, and its terms, do not apply to those
+        sections when you distribute them as separate works.  But when you
+        distribute the same sections as part of a whole which is a work based
+        on the Library, the distribution of the whole must be on the terms of
+        this License, whose permissions for other licensees extend to the
+        entire whole, and thus to each and every part regardless of who wrote
+        it.
+        /nThus, it is not the intent of this section to claim rights or contest
+        your rights to work written entirely by you; rather, the intent is to
+        exercise the right to control the distribution of derivative or
+        collective works based on the Library.
+        /nIn addition, mere aggregation of another work not based on the Library
+        with the Library (or with a work based on the Library) on a volume of
+        a storage or distribution medium does not bring the other work under
+        the scope of this License.
+        /n3. You may opt to apply the terms of the ordinary GNU General Public
+        License instead of this License to a given copy of the Library.  To do
+        this, you must alter all the notices that refer to this License, so
+        that they refer to the ordinary GNU General Public License, version 2,
+        instead of to this License.  (If a newer version than version 2 of the
+        ordinary GNU General Public License has appeared, then you can specify
+        that version instead if you wish.)  Do not make any other change in
+        these notices.
+        /nOnce this change is made in a given copy, it is irreversible for
+        that copy, so the ordinary GNU General Public License applies to all
+        subsequent copies and derivative works made from that copy.
+        /nThis option is useful when you wish to copy part of the code of
+        the Library into a program that is not a library.
+        /n4. You may copy and distribute the Library (or a portion or
+        derivative of it, under Section 2) in object code or executable form
+        under the terms of Sections 1 and 2 above provided that you accompany
+        it with the complete corresponding machine-readable source code, which
+        must be distributed under the terms of Sections 1 and 2 above on a
+        medium customarily used for software interchange.
+        /nIf distribution of object code is made by offering access to copy
+        from a designated place, then offering equivalent access to copy the
+        source code from the same place satisfies the requirement to
+        distribute the source code, even though third parties are not
+        compelled to copy the source along with the object code.
+        /n5. A program that contains no derivative of any portion of the
+        Library, but is designed to work with the Library by being compiled or
+        linked with it, is called a "work that uses the Library".  Such a
+        work, in isolation, is not a derivative work of the Library, and
+        therefore falls outside the scope of this License.
+        /nHowever, linking a "work that uses the Library" with the Library
+        creates an executable that is a derivative of the Library (because it
+        contains portions of the Library), rather than a "work that uses the
+        library".  The executable is therefore covered by this License.
+        Section 6 states terms for distribution of such executables.
+        /nWhen a "work that uses the Library" uses material from a header file
+        that is part of the Library, the object code for the work may be a
+        derivative work of the Library even though the source code is not.
+        Whether this is true is especially significant if the work can be
+        linked without the Library, or if the work is itself a library.  The
+        threshold for this to be true is not precisely defined by law.
+        /nIf such an object file uses only numerical parameters, data
+        structure layouts and accessors, and small macros and small inline
+        functions (ten lines or less in length), then the use of the object
+        file is unrestricted, regardless of whether it is legally a derivative
+        work.  (Executables containing this object code plus portions of the
+        Library will still fall under Section 6.)
+        /nOtherwise, if the work is a derivative of the Library, you may
+        distribute the object code for the work under the terms of Section 6.
+        Any executables containing that work also fall under Section 6,
+        whether or not they are linked directly with the Library itself.
+        /n6. As an exception to the Sections above, you may also combine or
+        link a "work that uses the Library" with the Library to produce a
+        work containing portions of the Library, and distribute that work
+        under terms of your choice, provided that the terms permit
+        modification of the work for the customer\'s own use and reverse
+        engineering for debugging such modifications.
+        /nYou must give prominent notice with each copy of the work that the
+        Library is used in it and that the Library and its use are covered by
+        this License.  You must supply a copy of this License.  If the work
+        during execution displays copyright notices, you must include the
+        copyright notice for the Library among them, as well as a reference
+        directing the user to the copy of this License.  Also, you must do one
+        of these things:
+            a) Accompany the work with the complete corresponding
+            machine-readable source code for the Library including whatever
+            changes were used in the work (which must be distributed under
+            Sections 1 and 2 above); and, if the work is an executable linked
+            with the Library, with the complete machine-readable "work that
+            uses the Library", as object code and/or source code, so that the
+            user can modify the Library and then relink to produce a modified
+            executable containing the modified Library.  (It is understood
+            that the user who changes the contents of definitions files in the
+            Library will not necessarily be able to recompile the application
+            to use the modified definitions.)
+            b) Use a suitable shared library mechanism for linking with the
+            Library.  A suitable mechanism is one that (1) uses at run time a
+            copy of the library already present on the user\'s computer system,
+            rather than copying library functions into the executable, and (2)
+            will operate properly with a modified version of the library, if
+            the user installs one, as long as the modified version is
+            interface-compatible with the version that the work was made with.
+            c) Accompany the work with a written offer, valid for at
+            least three years, to give the same user the materials
+            specified in Subsection 6a, above, for a charge no more
+            than the cost of performing this distribution.
+            d) If distribution of the work is made by offering access to copy
+            from a designated place, offer equivalent access to copy the above
+            specified materials from the same place.
+            e) Verify that the user has already received a copy of these
+            materials or that you have already sent this user a copy.
+        /nFor an executable, the required form of the "work that uses the
+        Library" must include any data and utility programs needed for
+        reproducing the executable from it.  However, as a special exception,
+        the materials to be distributed need not include anything that is
+        normally distributed (in either source or binary form) with the major
+        components (compiler, kernel, and so on) of the operating system on
+        which the executable runs, unless that component itself accompanies
+        the executable.
+        /nIt may happen that this requirement contradicts the license
+        restrictions of other proprietary libraries that do not normally
+        accompany the operating system.  Such a contradiction means you cannot
+        use both them and the Library together in an executable that you
+        distribute.
+        /n7. You may place library facilities that are a work based on the
+        Library side-by-side in a single library together with other library
+        facilities not covered by this License, and distribute such a combined
+        library, provided that the separate distribution of the work based on
+        the Library and of the other library facilities is otherwise
+        permitted, and provided that you do these two things:
+            a) Accompany the combined library with a copy of the same work
+            based on the Library, uncombined with any other library
+            facilities.  This must be distributed under the terms of the
+            Sections above.
+            b) Give prominent notice with the combined library of the fact
+            that part of it is a work based on the Library, and explaining
+            where to find the accompanying uncombined form of the same work.
+        /n8. You may not copy, modify, sublicense, link with, or distribute
+        the Library except as expressly provided under this License.  Any
+        attempt otherwise to copy, modify, sublicense, link with, or
+        distribute the Library is void, and will automatically terminate your
+        rights under this License.  However, parties who have received copies,
+        or rights, from you under this License will not have their licenses
+        terminated so long as such parties remain in full compliance.
+
+          9. You are not required to accept this License, since you have not
+        signed it.  However, nothing else grants you permission to modify or
+        distribute the Library or its derivative works.  These actions are
+        prohibited by law if you do not accept this License.  Therefore, by
+        modifying or distributing the Library (or any work based on the
+        Library), you indicate your acceptance of this License to do so, and
+        all its terms and conditions for copying, distributing or modifying
+        the Library or works based on it.
+
+          10. Each time you redistribute the Library (or any work based on the
+        Library), the recipient automatically receives a license from the
+        original licensor to copy, distribute, link with or modify the Library
+        subject to these terms and conditions.  You may not impose any further
+        restrictions on the recipients\' exercise of the rights granted herein.
+        You are not responsible for enforcing compliance by third parties with
+        this License.
+        /n11. If, as a consequence of a court judgment or allegation of patent
+        infringement or for any other reason (not limited to patent issues),
+        conditions are imposed on you (whether by court order, agreement or
+        otherwise) that contradict the conditions of this License, they do not
+        excuse you from the conditions of this License.  If you cannot
+        distribute so as to satisfy simultaneously your obligations under this
+        License and any other pertinent obligations, then as a consequence you
+        may not distribute the Library at all.  For example, if a patent
+        license would not permit royalty-free redistribution of the Library by
+        all those who receive copies directly or indirectly through you, then
+        the only way you could satisfy both it and this License would be to
+        refrain entirely from distribution of the Library.
+        /nIf any portion of this section is held invalid or unenforceable under any
+        particular circumstance, the balance of the section is intended to apply,
+        and the section as a whole is intended to apply in other circumstances.
+        /nIt is not the purpose of this section to induce you to infringe any
+        patents or other property right claims or to contest validity of any
+        such claims; this section has the sole purpose of protecting the
+        integrity of the free software distribution system which is
+        implemented by public license practices.  Many people have made
+        generous contributions to the wide range of software distributed
+        through that system in reliance on consistent application of that
+        system; it is up to the author/donor to decide if he or she is willing
+        to distribute software through any other system and a licensee cannot
+        impose that choice.
+        /nThis section is intended to make thoroughly clear what is believed to
+        be a consequence of the rest of this License.
+        /n12. If the distribution and/or use of the Library is restricted in
+        certain countries either by patents or by copyrighted interfaces, the
+        original copyright holder who places the Library under this License may add
+        an explicit geographical distribution limitation excluding those countries,
+        so that distribution is permitted only in or among countries not thus
+        excluded.  In such case, this License incorporates the limitation as if
+        written in the body of this License.
+        /n13. The Free Software Foundation may publish revised and/or new
+        versions of the Lesser General Public License from time to time.
+        Such new versions will be similar in spirit to the present version,
+        but may differ in detail to address new problems or concerns.
+        /nEach version is given a distinguishing version number.  If the Library
+        specifies a version number of this License which applies to it and
+        "any later version", you have the option of following the terms and
+        conditions either of that version or of any later version published by
+        the Free Software Foundation.  If the Library does not specify a
+        license version number, you may choose any version ever published by
+        the Free Software Foundation.
+        /n14. If you wish to incorporate parts of the Library into other free
+        programs whose distribution conditions are incompatible with these,
+        write to the author to ask for permission.  For software which is
+        copyrighted by the Free Software Foundation, write to the Free
+        Software Foundation; we sometimes make exceptions for this.  Our
+        decision will be guided by the two goals of preserving the free status
+        of all derivatives of our free software and of promoting the sharing
+        and reuse of software generally.
+                        NO WARRANTY
+        /n15. BECAUSE THE LIBRARY IS LICENSED FREE OF CHARGE, THERE IS NO
+        WARRANTY FOR THE LIBRARY, TO THE EXTENT PERMITTED BY APPLICABLE LAW.
+        EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR
+        OTHER PARTIES PROVIDE THE LIBRARY "AS IS" WITHOUT WARRANTY OF ANY
+        KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+        PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE
+        LIBRARY IS WITH YOU.  SHOULD THE LIBRARY PROVE DEFECTIVE, YOU ASSUME
+        THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+        /n16. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN
+        WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY
+        AND/OR REDISTRIBUTE THE LIBRARY AS PERMITTED ABOVE, BE LIABLE TO YOU
+        FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR
+        CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE
+        LIBRARY (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING
+        RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A
+        FAILURE OF THE LIBRARY TO OPERATE WITH ANY OTHER SOFTWARE), EVEN IF
+        SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH
+        DAMAGES.
+    </string>
+</resources>

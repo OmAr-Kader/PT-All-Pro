@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/cms"
+        app:cardBackgroundColor="?attr/rmoBackHint"
+        app:cardCornerRadius="@dimen/tcd"
+        app:cardElevation="5dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/alarmCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/alarmTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="?attr/rmoText"
+                android:textSize="@dimen/tgg"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.03"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/amPm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/rmoText"
+                android:textSize="@dimen/txt"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/alarmTime"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.13" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/alarmDays"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="?attr/rmoText"
+                android:textSize="@dimen/tle"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/alarmSwitch"
+                app:layout_constraintStart_toEndOf="@+id/amPm"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.110000014"
+                tools:text="@string/wk" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/alarmLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:textAlignment="viewStart"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="?attr/rmoText"
+                android:textSize="@dimen/txt"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/deleteAlarm"
+                app:layout_constraintEnd_toStartOf="@+id/deleteAlarm"
+                app:layout_constraintHorizontal_bias="0.09"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/deleteAlarm" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/alarmSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dt"
+                android:layout_marginBottom="@dimen/dt"
+                android:contentDescription="@string/d1"
+                android:scaleX="@dimen/s10"
+                android:scaleY="@dimen/s10"
+                app:layout_constraintBottom_toTopOf="@+id/deleteAlarm"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.9"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.44"
+                app:switchMinWidth="50dp"
+                app:theme="@style/switchNormalStyle"
+                app:track="@drawable/single_toggle" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/deleteAlarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/item_inside_cmm"
+                android:backgroundTint="?attr/rmoBackground"
+                android:gravity="center"
+                android:paddingStart="@dimen/cmm"
+                android:paddingTop="@dimen/cms"
+                android:paddingEnd="@dimen/cmm"
+                android:paddingBottom="@dimen/cms"
+                android:text="@string/d1"
+                android:textAlignment="gravity"
+                android:textAllCaps="false"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="?attr/rmoText"
+                android:textSize="@dimen/txt"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.94"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.86" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

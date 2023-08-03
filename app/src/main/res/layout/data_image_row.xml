@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearImage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/msgTime2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="@dimen/srh"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="@dimen/bcl"
+        android:paddingEnd="@dimen/bcl"
+        android:textColor="?attr/rmoText"
+        android:textSize="@dimen/tvs" />
+
+    <com.pt.common.moderator.over.GlideImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/srh"
+        android:layout_height="@dimen/srh"
+        android:background="@drawable/ripple_rectangle"
+        android:cropToPadding="false"
+        android:foregroundGravity="right"
+        android:scaleType="centerCrop" />
+
+</FrameLayout>

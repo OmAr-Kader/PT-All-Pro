@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    app:cardBackgroundColor="?attr/rmoBackHint"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="6dp">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/radioFolder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:buttonTint="?attr/rmoText"
+                android:minEms="1"
+                android:singleLine="true"
+                android:text="@string/mc"
+                android:textAppearance="?attr/textAppearancePopupMenuHeader"
+                android:textColor="?attr/rmoText"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/radioFile"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/radioFile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:buttonTint="?attr/rmoText"
+                android:minEms="1"
+                android:singleLine="true"
+                android:text="@string/lj"
+                android:textAppearance="?attr/textAppearancePopupMenuHeader"
+                android:textColor="?attr/rmoText"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/radioFile"
+                app:layout_constraintVertical_bias="0.0">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/nameAsc"
+                    style="@style/Pop.Resort"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="@string/nf" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/nameDesc"
+                    style="@style/Pop.Resort"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="@string/bd" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/dateAsc"
+                    style="@style/Pop.Resort"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="@string/dh" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/dateDesc"
+                    style="@style/Pop.Resort"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="@string/eb" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/sizeAsc"
+                    style="@style/Pop.Resort"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="@string/vf" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/sizeDesc"
+                    style="@style/Pop.Resort"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="@string/ey" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.cardview.widget.CardView>

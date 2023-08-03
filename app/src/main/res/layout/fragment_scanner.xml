@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.pt.common.moderator.over.FrameTint
+        android:id="@+id/cardScanner"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/card_back"
+        android:backgroundTint="?attr/colorPrimary">
+
+        <com.pt.common.moderator.over.ResizeImageView
+            android:id="@+id/backData"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/ripple_oval_card"
+            android:paddingTop="11.5dp"
+            android:paddingBottom="11.5dp"
+            app:srcCompat="@drawable/ic_back_arrow" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="65dp"
+            android:maxLines="1"
+            android:scrollbars="horizontal"
+            android:text="@string/t6"
+            android:textColor="?android:textColorPrimary" />
+    </com.pt.common.moderator.over.FrameTint>
+
+    <FrameLayout
+        android:id="@+id/frameScanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:fitsSystemWindows="true">
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="70dp"
+            android:ems="30"
+            android:inputType="textMultiLine|textCapSentences|textShortMessage"
+            android:textColor="?attr/rmoText"
+            android:textSize="@dimen/txt"
+            tools:ignore="Autofill,LabelFor" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/sendToMain"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="end|bottom"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/circle"
+            android:backgroundTint="?attr/colorPrimary"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="18dp"
+            android:scrollbars="vertical"
+            android:scrollHorizontally="false"
+            app:srcCompat="@drawable/ic_send_scanner"
+            app:tint="?android:textColorPrimary" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            tools:context=".main.former.MainActivity"
+            tools:ignore="HardcodedText,RelativeOverlap">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/actions"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="end"
+                android:background="@drawable/circle"
+                android:backgroundTint="?attr/colorPrimary"
+                android:padding="18dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:srcCompat="@drawable/ic_actions_arrow" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/translate"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/circle"
+                android:backgroundTint="?attr/colorAccent"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="10dp"
+                android:scrollbars="vertical"
+                android:scrollHorizontally="false"
+                android:visibility="gone"
+                app:layout_constraintBottom_toTopOf="@+id/actions"
+                app:layout_constraintEnd_toEndOf="@+id/actions"
+                app:srcCompat="@drawable/ic_translate" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/translateText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/t5"
+                android:textColor="?attr/rmoText"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/translate"
+                app:layout_constraintEnd_toStartOf="@+id/translate"
+                app:layout_constraintTop_toTopOf="@+id/translate" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/google"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/circle"
+                android:backgroundTint="?attr/colorAccent"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="10dp"
+                android:scrollbars="vertical"
+                android:scrollHorizontally="false"
+                android:visibility="gone"
+                app:layout_constraintBottom_toTopOf="@+id/translate"
+                app:layout_constraintEnd_toEndOf="@+id/translate"
+                app:layout_constraintStart_toStartOf="@+id/translate"
+                app:srcCompat="@drawable/ic_web_search"
+                app:tint="?attr/primaryAccentColor" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/googleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/wq"
+                android:textColor="?attr/rmoText"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/google"
+                app:layout_constraintEnd_toStartOf="@+id/google"
+                app:layout_constraintTop_toTopOf="@+id/google" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/share"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/circle"
+                android:backgroundTint="?attr/colorAccent"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="10dp"
+                android:scrollbars="vertical"
+                android:scrollHorizontally="false"
+                android:visibility="gone"
+                app:layout_constraintBottom_toTopOf="@+id/google"
+                app:layout_constraintEnd_toEndOf="@+id/translate"
+                app:layout_constraintStart_toStartOf="@+id/translate"
+                app:srcCompat="@drawable/ic_share_option"
+                app:tint="?attr/primaryAccentColor" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/shareText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/p1"
+                android:textColor="?attr/rmoText"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/share"
+                app:layout_constraintEnd_toStartOf="@+id/share"
+                app:layout_constraintTop_toTopOf="@+id/share" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/scannerAgain"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom|center|start"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/circle"
+            android:backgroundTint="?attr/colorAccent"
+            android:clickable="true"
+            android:focusable="true"
+            android:foregroundGravity="center"
+            android:padding="18dp"
+            android:scrollbars="vertical"
+            app:srcCompat="@drawable/ic_scanner_icon" />
+
+    </FrameLayout>
+
+</FrameLayout>

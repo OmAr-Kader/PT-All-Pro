@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PT: All</string>
+
+    <string name="c">C</string>
+    <string name="dt">تأكيد حذف العنصر</string>
+    <string name="dc">هل أنت متأكد أنك تريد حذف هذا العنصر؟</string>
+    <string name="ys">نعم</string>
+    <string name="no">لا</string>
+    <string name="sv">حفظ</string>
+    <string name="ad">أضف</string>
+    <string name="cr">عداد</string>
+    <string name="ed">تعديل المنبه</string>
+    <string name="al">اضافة منبه</string>
+    <string name="d4">تم حذف المنبه</string>
+    <string name="sm">تعيين المنبه</string>
+    <string name="rp">التكرار</string>
+    <string name="d1">حذف</string>
+    <string name="r9">نغمة الرنين</string>
+    <string name="ss">لقطة شاشة</string>
+    <string name="sr">تسجيل الشاشة</string>
+    <string name="hq">جودة عالية</string>
+    <string name="mq">جودة متوسطة</string>
+    <string name="py">لا توجد صور على هذا الجهاز</string>
+    <string name="pp">الخصائص</string>
+    <string name="st">تحديد الكل</string>
+    <string name="rm">إعادة تسمية</string>
+    <string name="pd">أضف إلى الحافظة</string>
+    <string name="pt">أضف إلى الجدول المعلق</string>
+    <string name="na">اسم</string>
+    <string name="dm">الأبعاد</string>
+    <string name="df">آخر تعديل</string>
+    <string name="sz">حجم</string>
+    <string name="im">العناصر المحددة</string>
+    <string name="tz">الحجم الإجمالي</string>
+    <string name="ph">موقع</string>
+    <string name="cg">نسخ</string>
+    <string name="mg">نقل</string>
+    <string name="nn">اسم جديد</string>
+    <string name="zr">٠٠:٠٠</string>
+    <string name="sa">تعيين ك</string>
+    <string name="p1">شارك</string>
+    <string name="bg">خلفية</string>
+    <string name="io">هام</string>
+    <string name="ur">رابط</string>
+    <string name="rb">تذكر</string>
+    <string name="dd">الوضع المظلم</string>
+    <string name="vb">اهتزاز</string>
+    <string name="se">حفظ</string>
+    <string name="rd">تمت إعادة تسمية الصورة</string>
+    <string name="co">أغلق</string>
+    <string name="er">أدخل</string>
+    <string name="aw">سوف يرن المنبه بعد</string>
+    <string name="pf">يرجى منح إذن التخزين الخارجي لحفظ الملف المسجل</string>
+    <string name="dn">تم</string>
+    <string name="gis">S</string>
+    <string name="tm">بي تي: تصوير الشاشة</string>
+    <string name="tg">بي تي: منبه</string>
+    <string name="rg">بي تي: معرض الصور</string>
+    <string name="md">اثنين</string>
+    <string name="td">ثلات</string>
+    <string name="wd">اربع</string>
+    <string name="ts">خميس</string>
+    <string name="fd">جمعة</string>
+    <string name="sy">سبت</string>
+    <string name="su">حد</string>
+    <string name="wk">اث ت ار خ ج س ح</string>
+    <string name="gt">استيقظ</string>
+    <string name="up"> </string>
+    <string name="bz">٠٠:٠٠:٠٠</string>
+    <string name="ao">صوت</string>
+    <string name="ac">تم إلغاء المنبه</string>
+    <string name="rf">بي تي: انتهى تسجيل الشاشة</string>
+    <string name="rs">بي تي: بدأ تسجيل الشاشة</string>
+    <string name="sh">بي تي: لقطة شاشة</string>
+    <string name="cl">تم إغلاق الفيديو العائم</string>
+    <string name="ap">تمت إضافة الصورة إلى الجدول المعلق</string>
+    <string name="uy">تعذر تشغيل الفيديو</string>
+    <string name="ps">صور</string>
+    <string name="ro">تسجيلات</string>
+    <string name="tp">تم نسخ النص</string>
+    <string name="d5">تم رفض إذن التسجيل الرقمي للشاشة</string>
+    <string name="cf">اختر وقت الإخطار</string>
+    <string name="nd">تمت إضافة الإخطار</string>
+    <string name="pe">الجدول المعلق فارغ</string>
+    <string name="si">اختر صورة</string>
+    <string name="hn">منبه بسيط</string>
+    <string name="hc">تنبيه</string>
+    <string name="le">تصوير الشاشة</string>
+    <string name="dj">أيام</string>
+    <string name="ks">علامات</string>
+    <string name="vk">رابط غير صحيح</string>
+    <string name="yn">أدخل أسمك</string>
+    <string name="un">اسم االمستخدم</string>
+    <string name="op">لم يتم العثور على تطبيق محرر</string>
+    <string name="yt">سمه/مظهر</string>
+    <string name="gl">عامة</string>
+    <string name="am">منبه</string>
+    <string name="vt">الدقائق الفاصلة</string>
+    <string name="zt">دقائق الغفوة</string>
+    <string name="ta">بدأ</string>
+    <string name="l4">اللفة</string>
+    <string name="s6">ايقاف</string>
+    <string name="rt">إعادة ضبط</string>
+    <string name="xt">بي تي: إضافي</string>
+    <string name="rv">تتم إعادة تسمية الفيديو</string>
+    <string name="ma">بي تي: التنبيه الفائت</string>
+    <string name="ms">إنذار فائت</string>
+    <string name="pl">لديك منبه فائت في </string>
+    <string name="t3">مرات الرنين</string>
+    <string name="vi">زيادة الصوت كل</string>
+    <string name="gw"> كان يرن ل </string>
+    <string name="fi">فشل تحميل الصورة</string>
+    <string name="qk">بدء التسجيل</string>
+    <string name="y1">يوم و</string>
+    <string name="y5">أيام و</string>
+    <string name="tv">بي تي: فيديو عائم</string>
+    <string name="fv">فيديو عائم</string>
+    <string name="a6">مزود الفيديو العائم</string>
+    <string name="ax">جار التحميل..</string>
+    <string name="z6">تم نسخ الرابط</string>
+    <string name="ry">معرض الصور</string>
+    <string name="ca">عدد الأعمدة</string>
+    <string name="zu">صور الشبكة عالية الدقة </string>
+    <string name="mu">دقيقة</string>
+    <string name="us">دقائق</string>
+    <string name="i1">مرة</string>
+    <string name="i5">مرات</string>
+    <string name="ns">ثواني</string>
+    <string name="r3">(إنذار متكرر)</string>
+    <string name="hp">الرأس المساعده</string>
+    <string name="pc">مزود الرأس المساعد للتطبيقات والملاحة</string>
+    <string name="ix">الرجاء منح إذن الميكروفون</string>
+    <string name="or">يجب تمكين مسؤول الجهاز</string>
+    <string name="xp">تعذر تصدير قاعدة البيانات.</string>
+    <string name="px">لم يتم العثور على تطبيقات مستكشف الملفات.</string>
+    <string name="mp">تم استيراد قاعدة البيانات بنجاح</string>
+    <string name="la">غير قادر على استيراد كل قاعدة البيانات. أعد المحاولة</string>
+    <string name="ui">تعذر استيراد قاعدة البيانات. أعد المحاولة</string>
+    <string name="mr">من فضلك ، استخدم مدير الملفات الرسمي</string>
+    <string name="ud">تراجع</string>
+    <string name="s4">تمت الإضافة إلى القائمة المنجزة</string>
+    <string name="fk">تمت إزالته من القائمة المنجزة</string>
+    <string name="mt">تم حذف العنصر</string>
+    <string name="dr">إعادة تحميل</string>
+    <string name="f7">مجلد الوسائط مطلوب لحفظ الصور ومقاطع الفيديو</string>
+    <string name="rl">تم رفض إذن النافذة العائمة</string>
+    <string name="pr">الرجاء منح الأذونات المطلوبة</string>
+    <string name="pv">النسخ الاحتياطي</string>
+    <string name="bw">هل تريد نسخ البيانات احتياطيًا؟</string>
+    <string name="qm">ملف:</string>
+    <string name="lz">افتح مجلد الوسائط</string>
+    <string name="pj">يجب ألا يكون نص الإخطار فارغًا</string>
+    <string name="ve">لا ينصح بإزالة أو نقل محتوى مخفي!</string>
+    <string name="yk">حسنا</string>
+    <string name="fa">إخفاء</string>
+    <string name="hu">إخفاء/إظهار</string>
+    <string name="hm">إظهار</string>
+    <string name="gp">صورة</string>
+    <string name="vo">فيديو</string>
+    <string name="an">و</string>
+    <string name="bu">شيء اشتريته</string>
+    <string name="pm">سعر</string>
+    <string name="ce">الكل</string>
+    <string name="hr">أغنية أو فنان</string>
+    <string name="lg">معرض الصور</string>
+    <string name="fw">مدير الملفات</string>
+    <string name="ow"> عرض&#160;</string>
+    <string name="ag">المحتويات المخفية</string>
+    <string name="ge">اختر الخدمة:</string>
+    <string name="mi">لماسح تخزين الجهاز</string>
+    <string name="lo">ملف</string>
+    <string name="fq">بي تي: مدير الملفات</string>
+    <string name="kd">عدد الملفات الفرعية</string>
+    <string name="zg">المدة</string>
+    <string name="mb">من فضلك ، السماح إذن لإدارة جميع الملفات</string>
+    <string name="cx">إنشاء مجلد جديد</string>
+    <string name="za">اسم المجلد</string>
+    <string name="qe">حدد الملف</string>
+    <string name="dq">تأكيد الحذف</string>
+    <string name="zh">بي تي: مشغل موسيقى</string>
+    <string name="kp">مزود التحكم في مشغل الموسيقى</string>
+    <string name="mk">مشغل الموسيقى</string>
+    <string name="xk">مشغل الصوت</string>
+    <string name="fx">مفضل</string>
+    <string name="uv">غير مفضل</string>
+    <string name="ir">داخلي</string>
+    <string name="jr">افتراضية</string>
+    <string name="gd">المجلد موجود بالفعل</string>
+    <string name="wn">مرر لأسفل</string>
+    <string name="sf">غفوة</string>
+    <string name="az">قم بالتمرير للغفوة</string>
+    <string name="gr">بنقرة\nواحدة</string>
+    <string name="gh">تمريرة\nواحدة</string>
+    <string name="jq">تمريرة\nمزدوجة</string>
+    <string name="sd">هز\nالجهاز</string>
+    <string name="wa">طريقة الرفض</string>
+    <string name="qo">حول</string>
+    <string name="gy">فرز المجلدات حسب</string>
+    <string name="gq">فرز الملفات حسب</string>
+    <string name="zw">فرز الوسائط حسب</string>
+    <string name="to">إلى :</string>
+    <string name="bj">الموضوع :</string>
+    <string name="m9">البريد الإلكتروني :</string>
+    <string name="ql">البريد الإلكتروني فارغة</string>
+    <string name="xv">استخدام بي تي: معرض للصور</string>
+    <string name="bh">استخدام بي تي: معرض للفيديو</string>
+    <string name="fg">استخدام بي تي: مشغل موسيقى للصوت</string>
+    <string name="qp">البريد الإلكتروني</string>
+    <string name="pu">رسائل البريد الإلكتروني</string>
+    <string name="li"> المكتبات&amp;التراخيص </string>
+    <string name="cq">ضغط الصور</string>
+    <string name="dv">يتضمن الفلتر البيانات المنجزة</string>
+    <string name="ci">صور</string>
+    <string name="vc">فيدوهات</string>
+    <string name="af">صوتيات</string>
+    <string name="um">وثائق</string>
+    <string name="ec">محفوظات</string>
+    <string name="nr">المسار ليس مجلد</string>
+    <string name="fs">"تم إطلاق التنبيه"</string>
+    <string name="pn">مزود إنذار لمشغل الوسائط والجدول الزمني تكرار التنبيه</string>
+    <string name="nm">لم يتم العثور على تطبيقات البريد الإلكتروني.</string>
+    <string name="dh">التاريخ تصاعديا</string>
+    <string name="eb">التاريخ تنازلي</string>
+    <string name="nf">الاسم تصاعديا</string>
+    <string name="bd">الاسم تنازليًا</string>
+    <string name="vf">الحجم تصاعديا</string>
+    <string name="ey">الحجم تنازلي</string>
+    <string name="mc">مجلد</string>
+    <string name="lj">ملف</string>
+    <string name="pg">عنوان</string>
+    <string name="sp">العنوان الفرعي</string>
+    <string name="iq">وصف</string>
+    <string name="a5">إلغاء</string>
+    <string name="po">تمكين الحماية</string>
+    <string name="wt">لا يتم تسجيل القياسات الحيوية أو رقم التعريف الشخصي أو كلمة المرور</string>
+    <string name="hs">بي تي:</string>
+    <string name="fp">إطلاق</string>
+    <string name="fc">الكرة العائمة</string>
+    <string name="ip">لأزرار التنقل والطاقة</string>
+    <string name="ml">مساعد شفاف</string>
+    <string name="me">فتح محرر بعد الالتقاط</string>
+    <string name="pa">استخدم اللغة الإنجليزية</string>
+    <string name="oc">فتح تطبيق الكاميرا</string>
+    <string name="sq">البحث في جميع الصور ومقاطع الفيديو</string>
+    <string name="ls">عرض جميع الصور ومقاطع الفيديو على الجهاز</string>
+    <string name="vw">جدول افتراضي لجميع الصور ومقاطع الفيديو الخاصة بالمجلدات</string>
+    <string name="fl">فرز المجلدات والصور ومقاطع الفيديو</string>
+    <string name="vq">جدول افتراضي لجميع المجلدات والملفات</string>
+    <string name="fh">فرز المجلدات والملفات</string>
+    <string name="lp">إظهار كافة المجلدات والملفات الموجودة على الجهاز</string>
+    <string name="sw">لصق العناصر في المسار الحالي</string>
+    <string name="sl">إنشاء ملف جديد على تخزين الجهاز أو افتراضي على التطبيق</string>
+    <string name="sb">ابحث في المجلد الحالي</string>
+    <string name="sx">التبديل بين المفضلة وفئات ملفات الجهاز</string>
+    <string name="lh">أضف منبه جديد</string>
+    <string name="lb">حفظ تفاصيل المنبه للانطلاق</string>
+    <string name="lc">طريقة الرفض للإنذار</string>
+    <string name="lw">اختر خلفية لشاشة الرفض</string>
+    <string name="lk">اختر نغمة رنين للتنبيه</string>
+    <string name="lq">التبديل بين منتقي الوقت “دائري” و “دوار”</string>
+    <string name="ly">المزيد من الخيارات</string>
+    <string name="lt">اضافة الى المفضلة</string>
+    <string name="lu">ابحث عن تطبيق محرر للصور ومقاطع الفيديو</string>
+    <string name="ln">حفظ تغيير الدوران</string>
+    <string name="ll">احذف الملف الحالي</string>
+    <string name="lf">مشاركة الملف الحالي</string>
+    <string name="fy">اختر صورة بنص أسود مطبوع بخلفية بيضاء لمستخرج النص</string>
+    <string name="pk">مشاركة النص</string>
+    <string name="pz">ترجمة النص في تطبيق الترجمة</string>
+    <string name="ew">تمديد للخيارات</string>
+    <string name="ef">ضبط الإخطار</string>
+    <string name="vh">إنشاء</string>
+    <string name="vl">استيراد</string>
+    <string name="nl">أبدا</string>
+    <string name="vd">فارغة</string>
+    <string name="vp">قيد الانتظار</string>
+    <string name="vs">تحرير تفاصيل الأغنية الحالية</string>
+    <string name="va">فتح في “بي تي: مشغل الموسيقى”</string>
+    <string name="ba">أدخل اسم قائمة التشغيل</string>
+    <string name="np">تم نسخ الاسم</string>
+    <string name="tc">تم نسخ المسار</string>
+    <string name="xe">باءت بالفشل</string>
+    <string name="nh">كرة التنقل</string>
+    <string name="ne">عرض (ملاحظات صوتية) في مشغل الموسيقى</string>
+    <string name="nt">المسار الحالي ليس مجلداً</string>
+    <string name="ab">ألبومات</string>
+    <string name="ae">الفنانين</string>
+    <string name="ww">قائمة التشغيل الحالية</string>
+    <string name="ak">كل الأغاني</string>
+    <string name="pq">كل قوائم التشغيل</string>
+    <string name="aj">حفظ قائمة التشغيل الحالية</string>
+    <string name="cz">&#160; عمود </string>
+    <string name="cv">&#160; أعمدة </string>
+    <string name="so">حدد النغمة</string>
+    <string name="dw">اليوم</string>
+    <string name="tt">الاسم</string>
+    <string name="at">البوم</string>
+    <string name="qr">فنان</string>
+    <string name="hw">لم يتم العثور على ملف صوتي</string>
+    <string name="wx">ضبط</string>
+    <string name="au">بي تي: حول</string>
+    <string name="wr">إضافة رمز الاختصار إلى الشاشة الرئيسية</string>
+    <string name="bc">مستوى الجهير</string>
+    <string name="bv">مستوى الجهير للجهاز</string>
+    <string name="bf">سيتم تطبيق التغييرات في إعادة التشغيل التالية</string>
+    <string name="by">محرك البحث</string>
+    <string name="pw">مسح قائمة التشغيل الحالية</string>
+    <string name="rw">ابحث في القائمة الحالية</string>
+    <string name="wz">تشغيل قائمة الأغاني الحالية</string>
+    <string name="jw">استكشاف جميع ملفات \“Android\” فقط في مدير ملفات Google</string>
+    <string name="qw">افتح</string>
+    <string name="wq">البحث في الويب</string>
+    <string name="wy">البحث عن نص في \“محرك البحث\”</string>
+    <string name="ki">عرض الصور فقط</string>
+    <string name="kv">عرض مقاطع الفيديو فقط</string>
+    <string name="kc">طريقة عرض الصور ومقاطع الفيديو</string>
+    <string name="kk">اعتمادا على الخلفية</string>
+    <string name="kw">أبيض</string>
+    <string name="kh">داكن</string>
+    <string name="kq">لون نص عناصر واجهه المستخدم</string>
+    <string name="kl">أضف إلى قائمة الأغاني الحالية</string>
+    <string name="ws">ساعة التوقيف</string>
+    <string name="ot">يستغرق التهيئة لـ “android auto” وقتًا حتى تكون جاهزًا</string>
+    <string name="cw">أغلق الكل</string>
+    <string name="iz">إيقاف الموسيقى مؤقتًا بعد التفاعل الأخير بعد</string>
+    <string name="gz">اختر التاريخ</string>
+    <string name="zs">إضافة صورة من التخزين</string>
+    <string name="zd">المفكرة</string>
+    <string name="zn">ملحوظة</string>
+    <string name="zf">تمديد</string>
+    <string name="zq">بطاقة الذاكرة</string>
+    <string name="qa">إيقاف</string>
+    <string name="qq">تشغيل</string>
+    <string name="qu">تراكب</string>
+    <string name="qb">سياسة الخصوصية</string>
+    <string name="qc">رابط سياسة الخصوصية</string>
+    <string name="qn">تواصل مع المطور عبر Gmail</string>
+    <string name="qv">اقترح التطبيق على صديق</string>
+    <string name="qx">الإصدار: </string>
+    <string name="ux">الترقية</string>
+    <string name="ub">الترقية إلى “PT: All Pro“</string>
+    <string name="ul">“PT: All Pro“ ميزات إضافية</string>
+    <string name="uc">\n
+\n
+PT: Alarm\n
+- “Double swipe“ لإيقاف الرنين\n
+- ضبط خلفية التنبيه\n
+- سجل صوتًا يجعلك سعيدًا بالاستيقاظ لتشغيله بعد نغمة الرنين\n
+\n
+PT: Gallery\n
+- سهولة الفرز\n
+- ابحث في المعرض بالكامل وليس في مجلد واحد فقط\n
+- تصفية الصور ومقاطع الفيديو بسهولة للعثور عليها بشكل أسرع باستخدام واجهة مستخدم بسيطة\n
+- يمكنك استخراج نص من الصور عبر OCR - ماسح ضوئي مجاني للنص -\n
+\n
+PT: File Manager\n
+- سهولة الفرز\n
+\n- إنشاء مجلد جديد ونسخ الملفات إلى المجلد الجديد أمر جيد للتنظيم ، ولكنه سيء بالنسبة إلى تخزين الجهاز ، يمكنك إنشاء مجلد افتراضي وإضافة أي ملفات ومجلدات تريدها
+\n
+PT: Notepad\n
+- يمكنك التصفية حسب نوع الملاحظة والشهر أو اليوم مع التقويم\n
+- لا تحتاج إلى الاحتفاظ بالعديد من الصور للنص ، حيث تحتوي المفكرة على “PT: OCR“ لاستخراج النص مجانًا\n
+\n
+PT: Music Player\n
+- رمز الإعدادات السريعة في شريط التنبيهات\n
+\n
+    </string>
+
+    <string-array name="dv">
+        <item>اث</item>
+        <item>ت</item>
+        <item>ار</item>
+        <item>خ</item>
+        <item>ج</item>
+        <item>س</item>
+        <item>ح</item>
+    </string-array>
+
+    <string-array name="sg">
+        <item>حليب</item>
+        <item>جبن</item>
+        <item>لحم</item>
+        <item>دجاج</item>
+        <item>خبز</item>
+        <item>سمك</item>
+        <item>معكرونة</item>
+        <item>أرز</item>
+        <item>بهارات</item>
+        <item>فاكهة</item>
+        <item>بطاطا</item>
+        <item>خضروات</item>
+        <item>بيض</item>
+    </string-array>
+    <string name="zj">الغاء القفل</string>
+    <string name="zb">قفل الشاشة لمشغل الموسيقى</string>
+
+    <string name="fz">استخدم “قارئ PDF”</string>
+    <string name="av">تشغيل</string>
+    <string name="wv">استخدم “عارض النص“</string>
+    <string name="zv">استخدم “Zip Viewer“</string>
+    <string name="wb">حافظ على إضاءة الشاشة في “عارض النص“</string>
+    <string name="wp">حافظ على إضاءة الشاشة في “قارئ PDF“</string>
+    <string name="wl">حافظ على إضاءة الشاشة في “عارض المعرض“</string>
+    <string name="bm">كتم صوت الهاتف</string>
+    <string name="uw">إلغاء كتم الصوت</string>
+    <string name="zy">التالي</string>
+    <string name="zp">السابق</string>
+    <string name="mx">اعرض المزيد</string>
+    <string name="t6">بي تي: التعرف الضوئي على الحروف</string>
+    <string name="t8">الماسح</string>
+    <string name="t5">ترجمة</string>
+    <string name="xd">لا يوجد نص مكتشف ، يعمل على نص أسود مطبوع بخلفية بيضاء</string>
+    <string name="sn">استخراج النص (OCR)</string>
+    <string name="nv">- سيتم حفظ الملاحظة في آخر جدول استخدمته فيه</string>
+    <string name="xg">عارض PDF</string>
+    <string name="fr">عارض النص</string>
+    <string name="uz">انسخ “الحالات” في مجلد خارجي لعرضها بعد الحذف</string>
+
+</resources>

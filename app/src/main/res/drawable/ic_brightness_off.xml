@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:tint="@color/wgl"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M64.9 15.9c0 2.9 -2 4.9 -4.9 4.9 -2.9 0 -4.9 -2 -4.9 -4.9V6.1c0 -2.9 2 -4.9 4.9 -4.9 2.9 0 4.9 2 4.9 4.9v9.8zM64.9 113.9c0 2.9 -2 4.9 -4.9 4.9 -2.9 0 -4.9 -2 -4.9 -4.9v-9.8c0 -2.9 2 -4.9 4.9 -4.9 2.9 0 4.9 2 4.9 4.9v9.8zM104.1 64.9c-2.9 0 -4.9 -2 -4.9 -4.9 0 -2.9 2 -4.9 4.9 -4.9h9.8c2.9 0 4.9 2 4.9 4.9 0 2.9 -2 4.9 -4.9 4.9h-9.8zM6.1 64.9c-2.9 0 -4.9 -2 -4.9 -4.9 0 -2.9 2 -4.9 4.9 -4.9h9.8c2.9 0 4.9 2 4.9 4.9 0 2.9 -2 4.9 -4.9 4.9H6.1zM94.3 32.6c-2 2 -4.9 2 -6.9 0s-2 -4.9 0 -6.9l6.9 -6.9c2 -2 4.9 -2 6.9 0s2 4.9 0 6.9l-6.9 6.9zM25.7 101.2c-2 2 -4.9 2 -6.9 0s-2 -4.9 0 -6.9l6.9 -6.9c2 -2 4.9 -2 6.9 0s2 4.9 0 6.9l-6.9 6.9zM87.4 94.3c-2 -2 -2 -4.9 0 -6.9s4.9 -2 6.9 0l6.9 6.9c2 2 2 4.9 0 6.9s-4.9 2 -6.9 0l-6.9 -6.9zM18.8 25.7c-2 -2 -2 -4.9 0 -6.9s4.9 -2 6.9 0l6.9 6.9c2 2 2 4.9 0 6.9s-4.9 2 -6.9 0l-6.9 -6.9z" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M60.2 59.9m-25.5 0a25.5 25.5 0 1 1 51 0a25.5 25.5 0 1 1 -51 0"
+        android:strokeWidth="8"
+        android:strokeColor="#FFFFFFFF" />
+</vector>

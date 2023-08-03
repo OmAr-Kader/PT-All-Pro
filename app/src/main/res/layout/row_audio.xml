@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/revRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:longClickable="true">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgPlayPause"
+            android:layout_width="@dimen/card_fixed_large"
+            android:layout_height="@dimen/card_fixed_large"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.03"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.100000024"
+            app:srcCompat="@drawable/ic_play_circle"
+            app:tint="?attr/rmoGrey" />
+
+        <androidx.appcompat.widget.AppCompatSeekBar
+            android:id="@+id/audioSeekBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:max="10000"
+            android:progressBackgroundTint="?attr/rmoText"
+            app:layout_constraintBottom_toBottomOf="@+id/imgPlayPause"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgPlayPause"
+            app:layout_constraintTop_toTopOf="@+id/imgPlayPause" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/filePath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/playTime"
+            android:paddingLeft="4dp"
+            android:paddingTop="4dp"
+            android:paddingRight="4dp"
+            android:textColor="?attr/rmoText"
+            android:textSize="@dimen/tvs"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.021"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgPlayPause" />
+
+        <Chronometer
+            android:id="@+id/playTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:padding="4dp"
+            android:text="@string/zr"
+            android:textColor="?attr/rmoText"
+            android:textSize="@dimen/tvs"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.977"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgPlayPause" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

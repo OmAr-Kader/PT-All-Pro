@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:alpha="0.0">
+
+    <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+        android:id="@+id/keyText"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:hint="@string/ks"
+        android:textColor="?attr/rmoText"
+        android:textColorHint="@color/gry"
+        android:textSize="@dimen/ctt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_max="100dp"
+        app:layout_constraintWidth_min="80dp" />
+
+    <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+        android:id="@+id/textCounter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/bu"
+        android:textColor="?attr/rmoText"
+        android:textColorHint="@color/gry"
+        android:textSize="@dimen/ctt"
+        app:layout_constraintEnd_toStartOf="@+id/priceCounter"
+        app:layout_constraintStart_toEndOf="@+id/keyText"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/priceCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:hint="@string/pm"
+        android:imeOptions="actionDone"
+        android:inputType="number|numberDecimal|numberSigned"
+        android:minWidth="60dp"
+        android:textColor="?attr/rmoText"
+        android:textColorHint="@color/gry"
+        android:textSize="@dimen/ctt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_max="100dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,68 @@
+<resources>
+
+    <dimen name="s10">1</dimen>
+
+    <dimen name="card_radius_normal">10dp</dimen>
+    <dimen name="card_radius_med">20dp</dimen>
+
+    <dimen name="dt">10sp</dimen>
+
+    <dimen name="tcd">15dp</dimen>
+    <dimen name="dm">52dp</dimen>
+    <dimen name="cds">60dp</dimen>
+    <dimen name="dr">70dp</dimen>
+
+    <dimen name="gp">120dp</dimen>
+    <dimen name="gz">150dp</dimen>
+    <dimen name="gf">175dp</dimen>
+    <dimen name="gfh">180dp</dimen>
+    <dimen name="di">230dp</dimen>
+    <dimen name="dih">115dp</dimen>
+
+    <dimen name="cms">5dp</dimen>
+    <dimen name="bcs">3.5dp</dimen>
+    <dimen name="bcd">2dp</dimen>
+
+    <dimen name="cmm">12dp</dimen>
+    <dimen name="bcl">11dp</dimen>
+    <dimen name="bum">8.3dp</dimen>
+    <dimen name="bim">4dp</dimen>
+
+    <dimen name="tqd">11sp</dimen>
+
+    <dimen name="tih">280dp</dimen>
+
+    <dimen name="rle">47dp</dimen>
+
+    <dimen name="wdt">85dp</dimen>
+    <dimen name="htn">40dp</dimen>
+
+    <dimen name="wqt">115dp</dimen>
+    <dimen name="hnt">43dp</dimen>
+
+    <dimen name="gt3">40dp</dimen>
+    <dimen name="srh">180dp</dimen>
+    <dimen name="hrh">80dp</dimen>
+
+    <dimen name="card_fixed_large_half">19.4dp</dimen>
+    <dimen name="card_fixed_large">38.84dp</dimen>
+    <dimen name="background_fixed_large">27.4dp</dimen>
+
+    <dimen name="gp1">70dp</dimen>
+    <dimen name="gop">30dp</dimen>
+    <dimen name="ctt">18sp</dimen>
+    <dimen name="dad">25dp</dimen>
+
+    <dimen name="tsg">16sp</dimen>
+    <dimen name="tle">13sp</dimen>
+
+    <dimen name="tvs">11sp</dimen>
+
+    <dimen name="txt">14sp</dimen>
+    <dimen name="ted">20sp</dimen>
+
+    <dimen name="tgg">37sp</dimen>
+
+    <dimen name="stg">45sp</dimen>
+
+</resources>

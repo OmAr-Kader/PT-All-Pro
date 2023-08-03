@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.pt.common.moderator.over.FrameTint
+        android:id="@+id/cardNot"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/card_back"
+        android:backgroundTint="?attr/colorPrimary">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/backData"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/ripple_oval_card"
+            android:paddingTop="11.5dp"
+            android:paddingBottom="11.5dp"
+            app:srcCompat="@drawable/ic_back_arrow" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/titleOfNot"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="70dp"
+            android:maxLines="1"
+            android:scrollbars="horizontal"
+            android:text="@string/hc"
+            android:textColor="?android:textColorPrimary" />
+    </com.pt.common.moderator.over.FrameTint>
+
+
+    <FrameLayout
+        android:id="@+id/mainNotification"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/subMainNotification"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:baselineAligned="false"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/tempFrame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1">
+
+                <TimePicker
+                    android:id="@+id/dataTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:theme="@style/Theme.TimePicker.DataNotification"
+                    android:timePickerMode="spinner"
+                    android:visibility="invisible" />
+
+                <CalendarView
+                    android:id="@+id/dataPicker"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:theme="@style/MyTheme.CalendarView" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_weight="1">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/editDataText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="70dp"
+                    android:inputType="textMultiLine|textCapSentences|textShortMessage"
+                    android:maxLines="11"
+                    android:singleLine="false"
+                    android:textColor="?attr/rmoText" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/setNotification"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="end|bottom"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:elevation="4dp"
+                    android:foreground="@drawable/ripple_rectangle"
+                    app:cardBackgroundColor="?android:attr/colorPrimary"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="4dp"
+                    app:cardMaxElevation="4dp">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="14dp"
+                        app:srcCompat="@drawable/ic_not"
+                        app:tint="?android:textColorPrimary" />
+
+                </androidx.cardview.widget.CardView>
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </FrameLayout>
+
+</FrameLayout>

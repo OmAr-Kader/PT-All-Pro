@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:cardBackgroundColor="?attr/rmoBackHint"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="5dp">
+
+    <FrameLayout
+        android:id="@+id/cardPopMusic"
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+        android:layout_gravity="center">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/subMainMusic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/albumFrame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/albumImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:scaleType="centerCrop" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/detailsFrame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/editCon"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone">
+
+                    <androidx.core.widget.NestedScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:overScrollMode="never"
+                        android:scrollbars="none"
+                        app:layout_constraintBottom_toTopOf="@+id/cancelEdit"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.pt.common.moderator.over.ScalelessTextView
+                                android:id="@+id/titleText"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:text="@string/tt"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/whi"
+                                android:textSize="@dimen/txt"
+                                app:layout_constraintBottom_toBottomOf="@+id/titleEdit"
+                                app:layout_constraintEnd_toStartOf="@+id/titleEdit"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="@+id/titleEdit" />
+
+                            <com.pt.common.moderator.over.ScalelessEditText
+                                android:id="@+id/titleEdit"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="70dp"
+                                android:layout_marginEnd="30dp"
+                                android:inputType="textNoSuggestions"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/whi"
+                                android:textSize="@dimen/txt"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <com.pt.common.moderator.over.ScalelessTextView
+                                android:id="@+id/albumText"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:text="@string/at"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/whi"
+                                android:textSize="@dimen/txt"
+                                app:layout_constraintBottom_toBottomOf="@+id/albumEdit"
+                                app:layout_constraintEnd_toStartOf="@+id/albumEdit"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="@+id/albumEdit" />
+
+                            <com.pt.common.moderator.over.ScalelessEditText
+                                android:id="@+id/albumEdit"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="70dp"
+                                android:layout_marginEnd="30dp"
+                                android:inputType="textNoSuggestions"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/whi"
+                                android:textSize="@dimen/txt"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/titleEdit" />
+
+                            <com.pt.common.moderator.over.ScalelessTextView
+                                android:id="@+id/artistText"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:text="@string/qr"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/whi"
+                                android:textSize="@dimen/txt"
+                                app:layout_constraintBottom_toBottomOf="@+id/artistEdit"
+                                app:layout_constraintEnd_toStartOf="@+id/artistEdit"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="@+id/artistEdit" />
+
+                            <com.pt.common.moderator.over.ScalelessEditText
+                                android:id="@+id/artistEdit"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="70dp"
+                                android:layout_marginEnd="30dp"
+                                android:inputType="textNoSuggestions"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/whi"
+                                android:textSize="@dimen/txt"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/albumEdit" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </androidx.core.widget.NestedScrollView>
+
+
+                    <com.pt.common.moderator.over.ScalelessButton
+                        android:id="@+id/saveEdit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ripple_cur"
+                        android:text="@string/dn"
+                        android:textColor="?attr/colorAccent"
+                        android:textSize="@dimen/txt"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+
+
+                    <com.pt.common.moderator.over.ScalelessButton
+                        android:id="@+id/cancelEdit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="3dp"
+                        android:background="@drawable/ripple_cur"
+                        android:text="@string/a5"
+                        android:textColor="?attr/colorAccent"
+                        android:textSize="@dimen/txt"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/saveEdit" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/detailsLin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:baselineAligned="false"
+                    android:orientation="vertical">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.2">
+
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/playMusic"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="13dp"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.9"
+                            app:srcCompat="@drawable/ic_pause_music"
+                            app:tint="?attr/rmoText" />
+
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/previousMusic"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:padding="5dp"
+                            app:layout_constraintBottom_toBottomOf="@+id/playMusic"
+                            app:layout_constraintEnd_toStartOf="@+id/playMusic"
+                            app:layout_constraintHorizontal_bias="0.6"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/playMusic"
+                            app:srcCompat="@drawable/ic_previous_song"
+                            app:tint="?attr/rmoText" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/nextMusic"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center_vertical|end"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:padding="5dp"
+                            app:layout_constraintBottom_toBottomOf="@+id/playMusic"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.4"
+                            app:layout_constraintStart_toEndOf="@+id/playMusic"
+                            app:layout_constraintTop_toTopOf="@+id/playMusic"
+                            app:srcCompat="@drawable/ic_next_song"
+                            app:tint="?attr/rmoText" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/musicDetails"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.8"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/playMusic"
+                        app:layout_constraintVertical_bias="0.13999999">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/editSong"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="2dp"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:padding="2dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.0"
+                            app:srcCompat="@drawable/ic_edit_music" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/musicCircle"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="2dp"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.0"
+                            app:srcCompat="@drawable/ic_floating"
+                            app:tint="?attr/rmoText" />
+
+                        <com.pt.common.moderator.over.ScalelessTextView
+                            android:id="@+id/musicArtist"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="50dp"
+                            android:layout_marginEnd="50dp"
+                            android:layout_weight="1"
+                            android:ellipsize="marquee"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:gravity="center"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:paddingStart="3dp"
+                            android:paddingEnd="5dp"
+                            android:scrollbars="none"
+                            android:scrollHorizontally="true"
+                            android:singleLine="true"
+                            android:textAlignment="gravity"
+                            android:textColor="?attr/rmoText"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <com.pt.common.moderator.over.ScalelessTextView
+                            android:id="@+id/musicTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="30dp"
+                            android:layout_weight="1"
+                            android:ellipsize="marquee"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:gravity="center"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:paddingStart="3dp"
+                            android:paddingEnd="5dp"
+                            android:scrollbars="none"
+                            android:singleLine="true"
+                            android:textAlignment="gravity"
+                            android:textColor="?attr/rmoText"
+                            android:textSize="15sp"
+                            android:textStyle="italic"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/musicArtist" />
+
+                        <androidx.appcompat.widget.AppCompatSeekBar
+                            android:id="@+id/seekBarMusic"
+                            style="@android:style/Widget.DeviceDefault.Light.SeekBar"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginStart="-10dp"
+                            android:layout_marginEnd="-10dp"
+                            android:layout_marginBottom="5dp"
+                            android:progressBackgroundTint="?attr/rmoGrey"
+                            android:progressTint="?attr/rmoText"
+                            android:thumbTint="?attr/rmoText"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="1.0"
+                            tools:ignore="NegativeMargin" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/musicDuration"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|end"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:clickable="false"
+                            android:gravity="center"
+                            android:text="@string/bz"
+                            android:textAlignment="gravity"
+                            android:textColor="?attr/rmoText"
+                            android:textSize="@dimen/tvs"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="1.0" />
+
+                        <Chronometer
+                            android:id="@+id/currentDuration"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|start"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:clickable="false"
+                            android:gravity="center"
+                            android:text="@string/bz"
+                            android:textAlignment="gravity"
+                            android:textColor="?attr/rmoText"
+                            android:textSize="@dimen/tvs"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="1.0" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <FrameLayout
+                    android:id="@+id/coverOptions"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp">
+
+                        <com.pt.common.moderator.over.FrameTint
+                            android:id="@+id/backCoverFrame"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:background="@drawable/circle">
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/backCover"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="5dp"
+                                app:srcCompat="@drawable/ic_back_arrow" />
+
+                        </com.pt.common.moderator.over.FrameTint>
+
+
+                        <com.pt.common.moderator.over.FrameTint
+                            android:id="@+id/searchCoverFrame"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:background="@drawable/circle">
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/searchCover"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="8dp"
+                                app:srcCompat="@drawable/ic_web_search" />
+
+                        </com.pt.common.moderator.over.FrameTint>
+
+                        <com.pt.common.moderator.over.FrameTint
+                            android:id="@+id/browserCoverFrame"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:background="@drawable/circle">
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/browserCover"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="3dp"
+                                app:srcCompat="@drawable/ic_pic_to_data" />
+
+                        </com.pt.common.moderator.over.FrameTint>
+
+
+                        <com.pt.common.moderator.over.FrameTint
+                            android:id="@+id/copyForCoverFrame"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:background="@drawable/circle">
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/copyForCover"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="5dp"
+                                app:srcCompat="@drawable/ic_copy_option" />
+
+                        </com.pt.common.moderator.over.FrameTint>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </FrameLayout>
+            </FrameLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>

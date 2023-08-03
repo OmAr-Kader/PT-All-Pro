@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/codMon"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <com.pt.common.moderator.recycler.RecyclerForViews
+            android:id="@+id/recyclerviewCounter"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            app:layout_behavior="com.pt.common.moderator.recycler.OverScrollHorizontalBehavior" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/linearCounterDaysRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/spinnerLinear"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="?attr/rmoBackground"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/counterState"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/bcd"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/cms"
+                android:paddingEnd="@dimen/cms"
+                android:text="@string/dj"
+                android:textAlignment="gravity"
+                android:textAllCaps="false"
+                android:textAppearance="?android:textAppearanceButton"
+                android:textColor="?attr/rmoText"
+                android:textSize="@dimen/tqd" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/txt"
+                android:layout_height="@dimen/txt"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/cms"
+                android:layout_marginTop="@dimen/bcs"
+                android:layout_marginEnd="@dimen/cms"
+                app:srcCompat="@drawable/ic_spinner_arrow" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.pt.common.moderator.recycler.RecyclerForViews
+                android:id="@+id/counterDaysRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_behavior="com.pt.common.moderator.recycler.OverScrollHorizontalBehavior" />
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/counterLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:visibility="gone">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_above="@+id/linearButton"
+            android:layout_alignParentTop="true"
+            app:layout_constraintBottom_toTopOf="@+id/linearButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/scrollCounter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:animationCache="false"
+                android:overScrollMode="never"
+                android:scrollbars="none"
+                app:layout_behavior="com.pt.common.moderator.recycler.OverScrollBounceBehavior">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/rootView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+            </androidx.core.widget.NestedScrollView>
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/add"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/item_inside_large"
+                android:backgroundTint="?attr/colorPrimary"
+                android:elevation="6dp"
+                android:text="@string/ad"
+                android:textColor="?attr/rmoText"
+                android:textSize="@dimen/txt"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/addSumTemp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_max="@dimen/srh" />
+
+            <FrameLayout
+                android:id="@+id/addSumTemp"
+                android:layout_width="6dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.33"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/sumLinearInvisible"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/sumSaveTemp"
+                app:layout_constraintStart_toEndOf="@+id/addSumTemp"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/sumText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="3dp"
+                    android:background="@null"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:textColor="?attr/rmoText"
+                    android:textSize="@dimen/tqd" />
+
+                <FrameLayout
+                    android:id="@+id/sumLinear"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_gravity="bottom"
+                    android:background="@color/fre"
+                    android:orientation="vertical" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/sumSaveTemp"
+                android:layout_width="6dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.67"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </FrameLayout>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/save"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/item_inside_large"
+                android:backgroundTint="?attr/colorPrimary"
+                android:elevation="6dp"
+                android:text="@string/sv"
+                android:textColor="?attr/rmoText"
+                android:textSize="@dimen/txt"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/sumSaveTemp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_max="@dimen/srh" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

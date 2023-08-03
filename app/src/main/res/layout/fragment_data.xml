@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tabData"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/codMon"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <com.pt.common.moderator.recycler.RecyclerForViews
+            android:id="@+id/tableRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="com.pt.common.moderator.recycler.OverScrollHorizontalBehavior" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/mainDataCon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:visibility="gone">
+
+
+        <FrameLayout
+            android:id="@+id/frameMainData"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/rle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.pt.common.moderator.recycler.RecyclerForViews
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_behavior="com.pt.common.moderator.recycler.OverScrollBounceBehavior" />
+
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginTop="@dimen/rle"
+                android:layout_marginBottom="@dimen/rle">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    app:cardBackgroundColor="?attr/rmoBackHint"
+                    app:cardCornerRadius="25dp"
+                    app:elevation="5dp">
+
+                    <androidx.coordinatorlayout.widget.CoordinatorLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+
+                        <androidx.core.widget.NestedScrollView
+                            android:id="@+id/scrollCounter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:scrollbars="none"
+                            app:layout_behavior="com.pt.common.moderator.recycler.OverScrollBounceBehavior">
+
+                            <androidx.appcompat.widget.LinearLayoutCompat
+                                android:id="@+id/linearScroll"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:visibility="invisible" />
+                        </androidx.core.widget.NestedScrollView>
+
+                    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </FrameLayout>
+
+        </FrameLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/rev"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@+id/sendButton"
+            android:background="@drawable/item_fixed_large"
+            android:backgroundTint="?attr/rmoBackHint"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/sendButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/revInside"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/bcd"
+                android:background="@drawable/item_fixed_large"
+                android:backgroundTint="?attr/rmoBackground"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/imageOption"
+                    android:layout_width="@dimen/rle"
+                    android:layout_height="@dimen/rle"
+                    android:background="@drawable/ripple_oval"
+                    android:contentDescription="@string/fe"
+                    android:paddingTop="7dp"
+                    android:paddingBottom="7dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.01"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/ic_menu_list"
+                    app:tint="?attr/rmoGrey" />
+
+                <com.pt.pro.notepad.recorder.EditMessage
+                    android:id="@+id/editMessage"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/imageOption"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/zn"
+                    android:imeOptions="flagNoExtractUi|actionSend"
+                    android:inputType="textMultiLine|textCapSentences|textShortMessage"
+                    android:maxLines="5"
+                    android:minHeight="48dp"
+                    android:paddingStart="8dp"
+                    android:paddingTop="12dp"
+                    android:paddingEnd="20dp"
+                    android:paddingBottom="12dp"
+                    android:scrollbars="vertical"
+                    android:scrollHorizontally="false"
+                    android:textColor="?attr/rmoText"
+                    android:textColorHint="?attr/rmoGrey"
+                    android:textSize="@dimen/txt"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageOption"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.pt.pro.notepad.recorder.RecordButton
+            android:id="@+id/sendButton"
+            android:layout_width="@dimen/rle"
+            android:layout_height="@dimen/rle"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/record_data"
+            android:backgroundTint="?attr/rmoBackHint"
+            android:contentDescription="@string/dn"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/ic_mic_black"
+            app:tint="?attr/rmoGrey" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

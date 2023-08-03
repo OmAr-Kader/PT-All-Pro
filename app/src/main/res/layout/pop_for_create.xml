@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="?attr/rmoBackHint"
+    app:cardCornerRadius="15dp"
+    app:elevation="0dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/cx"
+        android:textColor="?attr/rmoText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/virRealLinear"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/real"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:buttonTint="?attr/rmoText"
+            android:text="@string/ir"
+            android:textColor="?attr/rmoText"
+            android:textSize="@dimen/txt" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/virtual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:buttonTint="?attr/rmoText"
+            android:text="@string/jr"
+            android:textColor="?attr/rmoText"
+            android:textSize="@dimen/txt" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="120dp">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/inputCreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="?attr/rmoText"
+            android:hint="@string/za"
+            android:inputType="text"
+            android:textColor="?attr/rmoText"
+            android:textColorHint="?attr/rmoGrey"
+            android:textSize="@dimen/tqd"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/okPro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/ripple_cur"
+            android:paddingStart="18dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="18dp"
+            android:paddingBottom="3dp"
+            android:text="@string/er"
+            android:textSize="@dimen/tqd"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/noPro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/ripple_cur"
+            android:paddingStart="18dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="18dp"
+            android:paddingBottom="3dp"
+            android:text="@string/co"
+            android:textSize="@dimen/tqd"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/okPro" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

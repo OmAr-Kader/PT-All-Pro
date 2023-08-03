@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="s10">1.11</dimen>
+
+    <dimen name="tcd">19.4dp</dimen>
+    <dimen name="cds">69.7dp</dimen>
+
+    <dimen name="dt">15sp</dimen>
+    <dimen name="di">270dp</dimen>
+    <dimen name="dih">135dp</dimen>
+
+    <dimen name="dr">84dp</dimen>
+    <dimen name="dm">60dp</dimen>
+
+    <dimen name="gf">225dp</dimen>
+    <dimen name="gfh">242dp</dimen>
+    <dimen name="gp">150dp</dimen>
+    <dimen name="gz">185dp</dimen>
+
+    <dimen name="cms">6.3dp</dimen>
+    <dimen name="bcs">4.39dp</dimen>
+    <dimen name="bcd">2.5dp</dimen>
+
+    <dimen name="cmm">15dp</dimen>
+    <dimen name="bcl">13.8dp</dimen>
+    <dimen name="bum">10.5dp</dimen>
+    <dimen name="bim">5dp</dimen>
+
+
+    <dimen name="tqd">16.8sp</dimen>
+    <dimen name="tsg">18.2sp</dimen>
+    <dimen name="wdt">94.9dp</dimen>
+    <dimen name="htn">47.3dp</dimen>
+    <dimen name="wqt">80dp</dimen>
+    <dimen name="hnt">44dp</dimen>
+
+    <dimen name="tih">317dp</dimen>
+    <dimen name="rle">51.2dp</dimen>
+    <dimen name="tle">14.8sp</dimen>
+    <dimen name="srh">208dp</dimen>
+    <dimen name="hrh">104dp</dimen>
+
+    <dimen name="gt3">44.4dp</dimen>
+
+    <dimen name="gp1">75dp</dimen>
+    <dimen name="gop">33dp</dimen>
+
+    <dimen name="ctt">19.6sp</dimen>
+    <dimen name="dad">26.5dp</dimen>
+
+    <dimen name="tvs">12.25sp</dimen>
+
+    <dimen name="txt">17sp</dimen>
+    <dimen name="ted">23sp</dimen>
+
+    <dimen name="tgg">42sp</dimen>
+
+    <dimen name="stg">52.5sp</dimen>
+
+</resources>

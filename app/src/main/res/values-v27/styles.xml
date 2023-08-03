@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Light" parent="Theme.AppCompat">
+        <item name="rmoBackHint">@color/bhn</item>
+        <item name="rmoGrey">@color/slx</item>
+        <item name="screenText">@color/rmo_text_light</item>
+        <item name="rmoText">@color/bla</item>
+        <item name="rmoTextMi">@color/bbd</item>
+        <item name="android:textColorSecondary">@color/bla</item>
+        <item name="android:textColor">@color/bla</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:navigationBarColor">@color/bla</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="rmoBackground">@color/whi</item>
+        <item name="android:windowBackground">@color/whi</item>
+        <item name="android:itemBackground">@color/whi</item>
+    </style>
+
+    <style name="Dark" parent="Theme.AppCompat">
+        <item name="rmoBackHint">@color/hbd</item>
+        <item name="rmoGrey">@color/wgl</item>
+        <item name="screenText">@color/rmo_text_color</item>
+        <item name="rmoText">@color/whi</item>
+        <item name="rmoTextMi">@color/wgl</item>
+        <item name="android:textColorSecondary">@color/whi</item>
+        <item name="android:textColor">@color/whi</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:navigationBarColor">@color/bbd</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="rmoBackground">@color/bbd</item>
+        <item name="android:windowBackground">@color/bbd</item>
+        <item name="android:itemBackground">@color/bbd</item>
+    </style>
+
+</resources>

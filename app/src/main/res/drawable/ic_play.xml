@@ -1,0 +1,13 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="35dp"
+    android:height="35dp"
+    android:autoMirrored="true"
+    android:viewportWidth="1000"
+    android:viewportHeight="1000">
+    <path
+        android:fillColor="#4D090707"
+        android:pathData="M500 500m-500 0a500 500 0 1 1 1000 0a500 500 0 1 1 -1000 0" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M500 1000C223.88 1000 0 776.12 0 500C0 223.88 223.88 0 500 0c276.12 0 500 223.88 500 500C1000 776.12 776.12 1000 500 1000zM499.8 47.76c-249.08 0 -450.92 201.94 -450.92 450.92c0 249.08 201.94 450.92 450.92 450.92c249.08 0 450.92 -201.84 450.92 -450.92C950.71 249.69 748.88 47.76 499.8 47.76zM377.35 300.71l329.08 215.1L377.35 698.27V300.71z" />
+</vector>

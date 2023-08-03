@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/sumMainShake"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/linear_widget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.2">
+
+                <TextClock
+                    android:id="@+id/clockTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginTop="10dp"
+                    android:format12Hour="hh:mm"
+                    android:textColor="@color/gqe"
+                    android:textSize="55sp"
+                    android:textStyle="bold" />
+
+                <TextClock
+                    android:id="@+id/clockAmPm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="7dp"
+                    android:format12Hour="aaa"
+                    android:textColor="@color/gqe"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <FrameLayout
+                android:id="@+id/frame1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear_widget"
+                android:layout_centerHorizontal="true"
+                app:layout_constraintEnd_toEndOf="@+id/linear_widget"
+                app:layout_constraintStart_toStartOf="@+id/linear_widget"
+                app:layout_constraintTop_toBottomOf="@+id/linear_widget">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/textLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:textColor="@color/gqe"
+                    android:textSize="24sp" />
+
+            </FrameLayout>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textRepeating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/frame1"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:text="@string/r3"
+                android:textColor="@color/gqe"
+                android:textSize="24sp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="@+id/linear_widget"
+                app:layout_constraintStart_toStartOf="@+id/linear_widget"
+                app:layout_constraintTop_toBottomOf="@+id/frame1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:cardBackgroundColor="@color/dgy"
+                app:cardCornerRadius="@dimen/card_fixed_large"
+                app:cardElevation="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_max="800dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_max="800dp">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:id="@+id/dismissFrame"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.8"
+                        android:clickable="true"
+                        android:focusable="true">
+
+                        <com.pt.common.moderator.over.RippleBackgroundFrame
+                            android:id="@+id/content"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/dismissText"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="@string/sd"
+                            android:textAlignment="gravity"
+                            android:textColor="@color/whi"
+                            android:textSize="@dimen/ted" />
+
+                    </FrameLayout>
+
+
+                    <FrameLayout
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center_horizontal">
+
+                        <com.pt.common.moderator.over.FrameTint
+                            android:id="@+id/cardSwiper"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/item_fixed_large"
+                            android:backgroundTint="@color/rdd"
+                            android:clickable="false"
+                            android:elevation="9dp"
+                            android:focusable="false">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/slideText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="@string/az"
+                                android:textColor="@color/whi"
+                                android:textSize="16sp" />
+
+                            <androidx.appcompat.widget.AppCompatSeekBar
+                                android:id="@+id/seekScale"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center_vertical"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:max="1000"
+                                android:progress="50"
+                                android:progressDrawable="@drawable/empty_progress"
+                                android:progressTint="@color/fre"
+                                android:thumb="@drawable/circle"
+                                android:thumbTint="?attr/colorPrimary" />
+
+                        </com.pt.common.moderator.over.FrameTint>
+
+                    </FrameLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</FrameLayout>

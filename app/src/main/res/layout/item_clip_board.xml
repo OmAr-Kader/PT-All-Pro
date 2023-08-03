@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:paddingStart="10dp"
+    android:paddingTop="5dp"
+    android:paddingEnd="10dp"
+    android:paddingBottom="5dp">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/daysButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/bcd"
+        android:background="@drawable/item_inside_large"
+        android:backgroundTint="?attr/colorPrimary"
+        android:elevation="6dp"
+        android:textAllCaps="false"
+        android:textColor="?attr/rmoText"
+        android:textSize="@dimen/tqd" />
+
+</FrameLayout>

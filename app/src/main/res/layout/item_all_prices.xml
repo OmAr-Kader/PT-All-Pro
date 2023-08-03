@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/daysPrices"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:contentDescription="@string/pm"
+        android:background="@drawable/item_inside_bcl"
+        android:backgroundTint="?attr/colorPrimary"
+        android:textAllCaps="false"
+        android:textColor="?attr/rmoText"
+        android:textSize="@dimen/tqd" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/allPrices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="15dp"
+        android:gravity="center_vertical"
+        android:textAlignment="gravity"
+        android:textColor="?attr/rmoText"
+        android:textSize="@dimen/tqd" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

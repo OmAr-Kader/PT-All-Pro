@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_alarm_shortcut"
+        android:shortcutId="shortcutAlarm"
+        android:shortcutLongLabel="@string/am"
+        android:shortcutShortLabel="@string/am">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.pt.pro.alarm.views.MainActivityAlarm"
+            android:targetPackage="com.pt.pro.alarm.views" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_file_shortcut"
+        android:shortcutId="shortcutFile"
+        android:shortcutLongLabel="@string/fw"
+        android:shortcutShortLabel="@string/fw">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.pt.pro.file.views.MainFileManager"
+            android:targetPackage="com.pt.pro.file.views" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_music_shortcut"
+        android:shortcutId="shortcutMusic"
+        android:shortcutLongLabel="@string/mk"
+        android:shortcutShortLabel="@string/mk">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="shortCut"
+            android:targetClass="com.pt.pro.musical.music.MusicPlayer"
+            android:targetPackage="com.pt.pro.musical.music" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_gallery_shortcut"
+        android:shortcutId="shortcutGallery"
+        android:shortcutLongLabel="@string/lg"
+        android:shortcutShortLabel="@string/lg">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.pt.pro.gallery.activities.ActivityGallery"
+            android:targetPackage="com.pt.pro.gallery.activities" />
+    </shortcut>
+</shortcuts>

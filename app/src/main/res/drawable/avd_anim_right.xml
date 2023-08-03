@@ -1,0 +1,88 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="12dp"
+            android:height="1000dp"
+            android:viewportWidth="12"
+            android:viewportHeight="1000">
+            <path
+                android:name="path"
+                android:pathData="M 12.531 990.001 L 12.531 9.959"
+                android:strokeWidth="25"
+                android:strokeColor="#000000"
+                android:strokeLineCap="round"
+                android:strokeMiterLimit="10" />
+        </vector>
+    </aapt:attr>
+    <target android:name="path">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:duration="400"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="strokeColor"
+                    android:valueFrom="#000000"
+                    android:valueTo="#9c0000"
+                    android:valueType="colorType" />
+                <objectAnimator
+                    android:duration="400"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="strokeColor"
+                    android:startOffset="400"
+                    android:valueFrom="#9c0000"
+                    android:valueTo="#659c00"
+                    android:valueType="colorType" />
+                <objectAnimator
+                    android:duration="400"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="strokeColor"
+                    android:startOffset="800"
+                    android:valueFrom="#659c00"
+                    android:valueTo="#000000"
+                    android:valueType="colorType" />
+                <objectAnimator
+                    android:duration="400"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="strokeColor"
+                    android:startOffset="1200"
+                    android:valueFrom="#000000"
+                    android:valueTo="#10009c"
+                    android:valueType="colorType" />
+                <objectAnimator
+                    android:duration="400"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="strokeColor"
+                    android:startOffset="1600"
+                    android:valueFrom="#10009c"
+                    android:valueTo="#000000"
+                    android:valueType="colorType" />
+                <objectAnimator
+                    android:duration="400"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="strokeColor"
+                    android:startOffset="2000"
+                    android:valueFrom="#000000"
+                    android:valueTo="#49009c"
+                    android:valueType="colorType" />
+                <objectAnimator
+                    android:duration="400"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="strokeColor"
+                    android:startOffset="2400"
+                    android:valueFrom="#49009c"
+                    android:valueTo="#9c005e"
+                    android:valueType="colorType" />
+                <objectAnimator
+                    android:duration="400"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="strokeColor"
+                    android:startOffset="2800"
+                    android:valueFrom="#9c005e"
+                    android:valueTo="#000000"
+                    android:valueType="colorType" />
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>

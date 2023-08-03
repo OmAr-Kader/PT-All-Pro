@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/noteFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:visibility="gone">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/sendButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/record_data"
+            android:backgroundTint="?attr/rmoBackHint"
+            android:clickable="true"
+            android:contentDescription="@string/dn"
+            android:focusable="true"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_send"
+            app:tint="?attr/rmoGrey" />
+
+        <com.pt.common.moderator.over.EditTextBackEvent
+            android:id="@+id/editMessage"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_fixed_large"
+            android:backgroundTint="?attr/rmoBackHint"
+            android:hint="@string/zn"
+            android:imeOptions="flagNoExtractUi|actionSend"
+            android:inputType="textMultiLine|textCapSentences|textShortMessage"
+            android:maxLines="5"
+            android:minHeight="48dp"
+            android:paddingStart="15dp"
+            android:paddingTop="12dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="12dp"
+            android:scrollbars="vertical"
+            android:scrollHorizontally="false"
+            android:textColor="?attr/rmoText"
+            android:textColorHint="?attr/rmoGrey"
+            android:textSize="@dimen/txt"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/sendButton"
+            app:layout_constraintHeight_min="50dp"
+            app:layout_constraintStart_toEndOf="@+id/backButton"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/backButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/record_data"
+            android:backgroundTint="?attr/rmoBackHint"
+            android:clickable="true"
+            android:contentDescription="@string/dn"
+            android:focusable="true"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_back_arrow"
+            app:tint="?attr/rmoGrey" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

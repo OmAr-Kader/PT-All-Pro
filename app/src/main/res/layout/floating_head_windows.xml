@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainOne"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical|end">
+
+    <FrameLayout
+        android:id="@+id/constraintOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <com.pt.common.moderator.over.FrameTint
+            android:id="@+id/alarmFrame"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="140dp"
+            android:background="@drawable/circle"
+            android:backgroundTint="?attr/colorAccent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/alarmFrameNavi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/circle"
+                app:tint="?android:attr/colorAccent" />
+
+            <com.pt.common.moderator.touch.TouchImageView
+                android:id="@+id/alarmHead"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/ripple_oval"
+                app:srcCompat="@drawable/ic_alarm"
+                app:tint="?attr/primaryAccentColor" />
+
+        </com.pt.common.moderator.over.FrameTint>
+
+        <com.pt.common.moderator.over.FrameTint
+            android:id="@+id/screenShootFrame"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/circle"
+            android:backgroundTint="?attr/colorPrimary">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/screenShootFrameNavi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/circle"
+                app:tint="?android:attr/colorPrimary" />
+
+            <com.pt.common.moderator.touch.TouchImageView
+                android:id="@+id/screenShootHead"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/ripple_oval"
+                app:srcCompat="@drawable/ic_screen_shoot"
+                app:tint="?android:textColorPrimary" />
+
+        </com.pt.common.moderator.over.FrameTint>
+
+        <com.pt.common.moderator.over.FrameTint
+            android:id="@+id/galleryFrame"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="84dp"
+            android:background="@drawable/circle"
+            android:backgroundTint="?attr/colorAccent"
+            android:scrollbars="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/galleryFloating"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ripple_oval"
+                app:srcCompat="@drawable/ic_gallery"
+                app:tint="?attr/primaryAccentColor" />
+        </com.pt.common.moderator.over.FrameTint>
+
+        <com.pt.common.moderator.over.FrameTint
+            android:id="@+id/dataFrame"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom|start"
+            android:layout_marginEnd="84dp"
+            android:layout_marginBottom="45dp"
+            android:background="@drawable/circle"
+            android:backgroundTint="?attr/colorAccent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/dataHead"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/ripple_oval"
+                app:srcCompat="@drawable/ic_data"
+                app:tint="?attr/primaryAccentColor" />
+
+        </com.pt.common.moderator.over.FrameTint>
+
+        <com.pt.common.moderator.over.FrameTint
+            android:id="@+id/screenRecordFrame"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom|start"
+            android:layout_marginStart="35dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/circle"
+            android:backgroundTint="?attr/colorPrimary">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/screenRecordFrameNavi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/circle"
+                app:tint="?android:attr/colorPrimary" />
+
+            <com.pt.common.moderator.touch.TouchImageView
+                android:id="@+id/screenRecordHead"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/ripple_oval"
+                app:srcCompat="@drawable/ic_screen_record"
+                app:tint="?android:textColorPrimary" />
+
+        </com.pt.common.moderator.over.FrameTint>
+
+        <com.pt.common.moderator.over.FrameTint
+            android:id="@+id/fileFrame"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginTop="136dp"
+            android:layout_marginEnd="2dp"
+            android:background="@drawable/circle"
+            android:backgroundTint="?attr/colorAccent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/fileFrameNavi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/circle"
+                app:tint="?android:attr/colorAccent" />
+
+            <com.pt.common.moderator.touch.TouchImageView
+                android:id="@+id/fileHead"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/ripple_oval"
+                app:srcCompat="@drawable/ic_file"
+                app:tint="?attr/primaryAccentColor" />
+        </com.pt.common.moderator.over.FrameTint>
+
+    </FrameLayout>
+
+    <com.pt.common.moderator.over.FrameTint
+        android:id="@+id/appsFrame"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical|end"
+        android:visibility="gone" />
+
+
+</FrameLayout>

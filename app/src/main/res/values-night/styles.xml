@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AIO.App" parent="Dark">
+        <item name="colorPrimary">@color/an6</item>
+        <item name="colorPrimaryDark">@color/an6</item>
+        <item name="colorControlNormal">@color/an6</item>
+        <item name="android:colorForeground">@color/an6</item>
+        <item name="colorPrimaryAlpha">@color/an6a</item>
+        <item name="colorAccent">@color/an11</item>
+        <item name="colorAlphaAccent">@color/an11a</item>
+        <item name="primaryAccentColor">@color/whi</item>
+        <item name="android:textColorPrimary">@color/whi</item>
+        <item name="rmoBackground">@color/bbd</item>
+        <item name="android:windowBackground">@color/bbd</item>
+        <item name="android:statusBarColor">@color/bbd</item>
+        <item name="android:itemBackground">@color/bbd</item>
+        <item name="android:windowSplashScreenBackground" tools:targetApi="s">@color/bbd</item>
+        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">@drawable/ic_launcher_foreground</item>
+        <item name="android:windowSplashScreenAnimationDuration" tools:targetApi="s">400</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="s">shortEdges</item>
+        <item name="android:windowSplashScreenBehavior" tools:targetApi="s" tools:ignore="NewApi">icon_preferred</item>
+        <item name="postSplashScreenTheme" tools:targetApi="s">@style/AIO.App</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowClipToOutline" tools:targetApi="s">false</item>
+        <item name="android:windowElevation" tools:targetApi="s">7dp</item>
+    </style>
+
+    <style name="AIO" parent="Theme.AppCompat">
+        <item name="rmoBackHint">@color/hbd</item>
+        <item name="rmoGrey">@color/wgl</item>
+        <item name="screenText">@color/rmo_text_color</item>
+        <item name="rmoText">@color/whi</item>
+        <item name="rmoTextMi">@color/wgl</item>
+        <item name="android:textColorSecondary">@color/whi</item>
+        <item name="android:textColor">@color/whi</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:navigationBarColor">@color/bbd</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="o_mr1">shortEdges</item>
+        <item name="colorPrimary">@color/bbd</item>
+        <item name="colorPrimaryDark">@color/bbd</item>
+        <item name="colorControlNormal">@color/bbd</item>
+        <item name="rmoBackground">@color/bbd</item>
+        <item name="android:windowBackground">@color/bbd</item>
+        <item name="android:itemBackground">@color/bbd</item>
+        <item name="android:windowSplashScreenBackground" tools:targetApi="s">@color/bbd</item>
+        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">@null</item>
+        <item name="android:windowSplashScreenAnimationDuration" tools:targetApi="s">0</item>
+        <item name="postSplashScreenTheme" tools:targetApi="s">@null</item>
+    </style>
+
+</resources>

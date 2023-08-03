@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    app:cardBackgroundColor="?attr/rmoBackHint"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="5dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/hideLinear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ripple_cur"
+            android:baselineAligned="false"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/ic_hidden" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/hideText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                app:srcCompat="@drawable/ic_hidden" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/showLinear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ripple_cur"
+            android:baselineAligned="false"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/ic_hidden_show"
+                app:tint="?attr/rmoText" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/showText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                app:srcCompat="@drawable/ic_hidden" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/showForStoreLinear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ripple_cur"
+            android:baselineAligned="false"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/ic_hidden_show"
+                app:tint="?attr/rmoText" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/showForStoreText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                app:srcCompat="@drawable/ic_hidden" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/rotationBarCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="10dp"
+        android:visibility="gone"
+        app:cardCornerRadius="10dp">
+
+        <androidx.core.widget.ContentLoadingProgressBar
+            android:id="@+id/rotationBarProgressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="@dimen/rle"
+            android:layout_height="@dimen/rle"
+            android:layout_margin="5dp"
+            android:indeterminateDrawable="@drawable/rotate_gallery" />
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.cardview.widget.CardView>

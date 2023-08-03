@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="globalFrame" type="id" />
+    <item name="listAllFrame" type="id" />
+    <item name="showAlbums" type="id" />
+    <item name="listArtistFrame" type="id" />
+    <item name="extendButton" type="id" />
+    <item name="savePlaylist" type="id" />
+    <item name="deletePlaylist" type="id" />
+    <item name="returnMusic" type="id" />
+    <item name="lockBrowser" type="id" />
+    <item name="galleryModeFrame" type="id" />
+    <item name="searchButton" type="id" />
+
+    <item name="adCallToAction" type="id" />
+    <item name="adAppIcon" type="id" />
+    <item name="adHeadline" type="id" />
+    <item name="adStore" type="id" />
+    <item name="adAdvertiser" type="id" />
+    <item name="adPrice" type="id" />
+</resources>
