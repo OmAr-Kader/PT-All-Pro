@@ -22,9 +22,9 @@ Apps multitude lead to clutter on the phone, how about one full-featured app tha
 
 ## Screenshots
 
-![1-Main PT](https://github.com/OmAr-Kader/PT-All-Pro/assets/137582672/f7c1c4f8-bc78-4c63-88dd-2ec996982759)
-<img src="https://github.com/OmAr-Kader/PT-All-Pro/assets/137582672/e5823e78-b42b-47df-b94e-77e4af5c6e63"  width="300" height="667"/>
-<img src="https://github.com/OmAr-Kader/PT-All-Pro/assets/137582672/99b67399-8070-4c3b-a558-ce28c6c28874"  width="300" height="667"/>
-![3-Lock Screen](https://github.com/OmAr-Kader/PT-All-Pro/assets/137582672/8c7850f3-441f-4ab1-bcdf-ee545edf6b8f)
-<img src="https://github.com/OmAr-Kader/PT-All-Pro/assets/137582672/8787dc53-bfbd-4072-a1a7-25e637e2bb4e"  width="300" height="667"/>
-<img src="https://github.com/OmAr-Kader/PT-All-Pro/assets/137582672/a6de2965-82e0-4c21-ac17-ba2fb01ba8a1"  width="300" height="667"/>
+![1-Main PT](https://github.com/OmAr-Kader/PT-All-Pro/assets/137582672/d5430c78-273e-4fde-915e-fa35a395d836)
+<img src="https://github.com/OmAr-Kader/PT-All-Pro/assets/137582672/9f4cd0bc-686d-4f35-bc0a-2920ba81e41a"  width="300" height="667"/>
+<img src="https://github.com/OmAr-Kader/PT-All-Pro/assets/137582672/60f8958d-217b-4dbd-b464-1813b5d8fdf4"  width="300" height="667"/>
+![3-Lock Screen](https://github.com/OmAr-Kader/PT-All-Pro/assets/137582672/db446609-1b88-44d2-9e2b-7fc828fca8b3)
+<img src="https://github.com/OmAr-Kader/PT-All-Pro/assets/137582672/29b85cfc-679b-4e03-9014-a7dafca95b2f"  width="300" height="667"/>
+<img src="https://github.com/OmAr-Kader/PT-All-Pro/assets/137582672/6e3eae8c-8efe-43e7-bdb5-e7a3c34137cb"  width="300" height="667"/>
